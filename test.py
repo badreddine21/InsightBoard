@@ -1,3 +1,4 @@
+from intelligence import select_top_visuals
 import pandas as pd
 import numpy as np
 import time
@@ -80,30 +81,42 @@ class BusinessEngine:
 
         self.metadata = classes
         return classes
-
+    
     def run_analysis(self):
-        """Phase C: Robust Logic (Fixed Future Deprecation)"""
         classes = self.metadata
         df = self.clean_df
-        report = {}
+        report = {"charts": {}, "kpis": {}, "recommendations": []}
 
-        if classes['financial'] and classes['categorical']:
-            # Use the category with the most meaningful spread
-            main_metric = classes['financial'][0]
-            # Prioritize 'product_category' if it exists, else use first cat
-            main_cat = next((c for c in classes['categorical'] if 'category' in c), classes['categorical'][0])
-            
-            report['top_performers'] = df.groupby(main_cat)[main_metric].sum().sort_values(ascending=False).head(5)
+        # Step 1: Get dynamic recommendations
+        from intelligence import select_top_visuals
+        recommended_types = select_top_visuals(classes, df)
+        report["recommendations"] = recommended_types
 
-        if classes['temporal'] and classes['financial']:
-            date_col = classes['temporal'][0]
-            metric_col = classes['financial'][0]
-            # Fixed 'ME' warning here
-            temp_df = df.dropna(subset=[date_col]).set_index(date_col)
-            report['monthly_trend'] = temp_df[metric_col].resample('ME').sum()
+        # Step 2: Calculate Big Number KPIs
+        report['kpis']['total_revenue'] = float(df['calculated_revenue'].sum()) if 'calculated_revenue' in df.columns else 0
+        report['kpis']['row_count'] = len(df)
+
+        # Step 3: Populate only the recommended charts
+        if 'bar_chart' in recommended_types:
+            main_cat = classes['categorical'][0]
+            data = df.groupby(main_cat)['calculated_revenue'].sum().sort_values(ascending=False).head(10)
+            report['charts']['bar_chart'] = {
+                "labels": data.index.tolist(),
+                "values": data.values.tolist(),
+                "title": f"Top {main_cat.title()} by Sales"
+            }
+        
+        # Waterfall Logic: Revenue -> Costs -> Profit
+        if 'waterfall' in recommended_types:
+            rev = df['calculated_revenue'].sum()
+            prof = df.get('profit', pd.Series([0])).sum() # Fallback if profit column missing
+            report['charts']['waterfall'] = {
+                "labels": ["Total Revenue", "Operating Costs", "Net Profit"],
+                "values": [rev, -(rev - prof), prof],
+                "title": "Profitability Bridge"
+            }
 
         return report
-    
     def generate_json_report(self, analysis_results):
         """Converts complex Pandas objects into a clean JSON-ready dictionary."""
         import json

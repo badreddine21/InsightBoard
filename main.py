@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File,HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from test import BusinessEngine
@@ -22,20 +22,27 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.post("/analyze")
 async def analyze_file(file: UploadFile = File(...)):
-    temp_path = f"temp_{file.filename}"
-    with open(temp_path, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
-    
+    allowed_extensions = {'.csv', '.xlsx', '.xls'}
+    file_ext = os.path.splitext(file.filename)[1].lower()
+    if file_ext not in allowed_extensions:
+        raise HTTPException(400, "Only CSV and Excel files are supported")
+    temp_path = f"temp_{file.filename}_{file.filename}"
     try:
-        engine = BusinessEngine(temp_path)
-        engine.load_data()
-        engine.standardize_and_clean()
-        engine.classify_columns()
-        analysis = engine.run_analysis()
+        with open(temp_path, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
         
-        report = engine.generate_json_report(analysis)
-        return json.loads(report)
-    
+        try:
+            engine = BusinessEngine(temp_path)
+            engine.load_data()
+            engine.standardize_and_clean()
+            engine.classify_columns()
+            analysis = engine.run_analysis()
+            
+            report = engine.generate_json_report(analysis)
+            return json.loads(report)
+        except Exception as e:
+            return {"error": str(e), "type": type(e).__name__}
+
     finally:
         if os.path.exists(temp_path):
             os.remove(temp_path)

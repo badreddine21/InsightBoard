@@ -70,43 +70,50 @@ async function initDashboard() {
             });
         }
 
+
         // 5. Bonus table for HR view
         const tableBody = document.getElementById('bonusTableBody');
         if (tableBody && data.bonus_report) {
             tableBody.innerHTML = '';
-            data.bonus_report.forEach(emp => {
+            data.bonus_report.forEach((emp, index) => {
                 const row = `
-                    <tr style="border-bottom: 1px solid #eee; height: 40px;">
+                    <tr class="hr-row">
                         <td>${emp.name}</td>
                         <td>$${Number(emp.total_sales).toLocaleString()}</td>
-                        <td style="color: #27ae60; font-weight: bold;">$${Number(emp.bonus).toLocaleString()}</td>
-                        <td><button onclick="alert('Bonus approved for ${emp.name}')">Approve</button></td>
+                        <td class="bonus-value">$${Number(emp.bonus).toLocaleString()}</td>
+                        <td>
+                            <select class="status-select" id="status-${index}" onchange="updateBonusStatus(${index}, '${emp.name}')">
+                                <option value="approved" class="approved">✓ Approved</option>
+                                <option value="not-approved" class="not-approved">✗ Not Approved</option>
+                            </select>
+                        </td>
+                        <td><button class="approve-btn" onclick="approveBonusAlert('${emp.name}')">Approve</button></td>
                     </tr>`;
                 tableBody.innerHTML += row;
             });
         }
 
-        // Boss comment: save locally in browser storage
-        const commentInput = document.getElementById('bossComment');
-        const commentButton = document.getElementById('bossCommentSubmit');
-        if (commentInput) {
-            const storageKey = 'insightboard_boss_comment';
-            const saved = localStorage.getItem(storageKey);
-            if (saved) {
-                commentInput.value = saved;
-            }
-
-            if (commentButton) {
-                commentButton.addEventListener('click', () => {
-                    localStorage.setItem(storageKey, commentInput.value || '');
-                    alert('Comment saved locally in this browser.');
-                });
-            }
-        }
 
     } catch (err) {
         console.error("Dashboard failed to load:", err);
     }
+}
+
+function updateBonusStatus(index, empName) {
+    const selectElement = document.getElementById(`status-${index}`);
+    const status = selectElement.value;
+    
+    if (status === 'approved') {
+        selectElement.classList.remove('not-approved');
+        selectElement.classList.add('approved');
+    } else {
+        selectElement.classList.remove('approved');
+        selectElement.classList.add('not-approved');
+    }
+}
+
+function approveBonusAlert(empName) {
+    alert(`Bonus approved for ${empName}`);
 }
 
 document.addEventListener('DOMContentLoaded', initDashboard);

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% set page_title = 'Insights' %}
+
+{% block content %}
+<div class="insights-card full-width">
+    <h3>🧠 Analysis Insights</h3>
+    <ul id="insightsList" class="insights-list">
+        <li class="insight-item">Loading insights...</li>
+    </ul>
+</div>
+
+<script src="/static/insights.js"></script>
+{% endblock %}

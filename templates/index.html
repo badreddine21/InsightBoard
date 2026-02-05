@@ -6,49 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Intelligence Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f0f2f5;
-            padding: 20px;
-            color: #333;
-        }
-
-        .dashboard-header {
-            margin-bottom: 30px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        .full-width {
-            grid-column: span 2;
-        }
-
-        h3 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-
-        canvas {
-            max-width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
-<body>
+<body class="dashboard-page">
     <div class="dashboard-header">
         <h1>Sales Intelligence Dashboard</h1>
     </div>

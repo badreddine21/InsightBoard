@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% set page_title = 'Comments' %}
+
+{% block content %}
+{% if user.role == 'boss' %}
+<div class="comments-card">
+    <h3>💬 Send Comment to Department</h3>
+    <div class="form-group">
+        <label for="departmentSelect">Select Department:</label>
+        <select id="departmentSelect">
+            <option value="">-- Choose Department --</option>
+            <option value="sales">Sales Team</option>
+            <option value="hr">HR Department</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="bossComment">Message:</label>
+        <textarea id="bossComment" placeholder="Type your message here..."></textarea>
+    </div>
+    <button class="comment-btn" id="bossCommentSubmit" type="button">Send Message</button>
+</div>
+{% endif %}
+
+{% if user.role in ['sales', 'hr'] %}
+<div class="comments-display full-width">
+    <h3>📨 Messages for {{ user.role|capitalize }} Department</h3>
+    <div id="departmentComments">
+        <p class="no-comments">Loading messages...</p>
+    </div>
+</div>
+{% endif %}
+
+<script src="/static/comments.js"></script>
+{% endblock %}

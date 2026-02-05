@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or 'InsightBoard' }}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="app-page">
+    <div class="app-layout">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="app-name">InsightBoard</div>
+                <div class="user-meta">
+                    <div class="user-name">{{ user.name }}</div>
+                    <div class="user-role">{{ user.role|capitalize }}</div>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <a class="nav-link" href="/dashboard">📊 Dashboard</a>
+                <a class="nav-link" href="/insights">🧠 Insights</a>
+                <a class="nav-link" href="/comments">💬 Comments</a>
+                <a class="nav-link" href="/upload">📁 Upload</a>
+                {% if user.role in ['boss', 'sales'] %}
+                <a class="nav-link" href="/compare">📈 Compare</a>
+                {% endif %}
+                <a class="nav-link logout-link" href="/logout">🚪 Logout</a>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <div class="page-header">
+                <h1>{{ page_title or 'Dashboard' }}</h1>
+            </div>
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+</body>
+</html>

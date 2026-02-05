@@ -1,0 +1,245 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="compare-container">
+        <button class="back-btn" onclick="location.href='/dashboard'">← Back to Dashboard</button>
+
+        <div class="compare-upload-section">
+            <h2>Upload Two Files to Compare</h2>
+            
+            {% if error %}
+            <div class="error-message-compare">⚠️ {{ error }}</div>
+            {% endif %}
+
+            <form method="POST" enctype="multipart/form-data" id="compareForm">
+                <div class="file-inputs">
+                    <div class="file-input-group">
+                        <label for="file1">📊 First File</label>
+                        <input type="file" id="file1" name="file1" accept=".csv" required>
+                        <small id="file1Name" class="file-name-hint"></small>
+                    </div>
+                    <div class="file-input-group">
+                        <label for="file2">📊 Second File</label>
+                        <input type="file" id="file2" name="file2" accept=".csv" required>
+                        <small id="file2Name" class="file-name-hint"></small>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="btn-primary">Compare Files</button>
+                    <button type="reset" class="btn-secondary">Clear</button>
+                </div>
+            </form>
+        </div>
+
+        {% if comparison %}
+        <div class="results-section show">
+            <h2 class="section-title">Comparison Results</h2>
+
+            <!-- Summary Cards -->
+            <div class="summary-cards">
+                <div class="summary-card">
+                    <h3>📈 Total Sales</h3>
+                    <div class="metric">
+                        <div class="metric-label">File 1</div>
+                        <div class="metric-value">${{ "%.2f"|format(comparison.file1.total_sales|float) }}</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">File 2</div>
+                        <div class="metric-value">${{ "%.2f"|format(comparison.file2.total_sales|float) }}</div>
+                    </div>
+                    <div class="metric-change">
+                        <div class="metric-label">Change</div>
+                        <div class="metric-value {% if comparison.comparison.sales_change > 0 %}positive{% elif comparison.comparison.sales_change < 0 %}negative{% endif %}">
+                            {% if comparison.comparison.sales_change > 0 %}+{% endif %}
+                            ${{ "%.2f"|format(comparison.comparison.sales_change|float) }}
+                            ({{ comparison.comparison.sales_change_pct }}%)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-card">
+                    <h3>🔄 Transactions</h3>
+                    <div class="metric">
+                        <div class="metric-label">File 1</div>
+                        <div class="metric-value">{{ comparison.file1.total_transactions }}</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-label">File 2</div>
+                        <div class="metric-value">{{ comparison.file2.total_transactions }}</div>
+                    </div>
+                    <div class="metric-change">
+                        <div class="metric-label">Change</div>
+                        <div class="metric-value {% if comparison.comparison.transaction_change > 0 %}positive{% elif comparison.comparison.transaction_change < 0 %}negative{% endif %}">
+                            {% if comparison.comparison.transaction_change > 0 %}+{% endif %}
+                            {{ comparison.comparison.transaction_change }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-card">
+                    <h3>🏆 Winner</h3>
+                    <div class="metric">
+                        <div class="mt-20">
+                            <span class="winner-badge">{{ comparison.comparison.better_file }}</span>
+                        </div>
+                        <div class="mt-20">
+                            {% if comparison.comparison.sales_change > 0 %}
+                            <p class="text-positive">File 2 performed better</p>
+                            {% elif comparison.comparison.sales_change < 0 %}
+                            <p class="text-negative">File 1 performed better</p>
+                            {% else %}
+                            <p class="text-warning">Equal performance</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Comparison -->
+            <div class="comparison-grid">
+                <div class="comparison-card">
+                    <h3>📊 File 1 Overview</h3>
+                    <div class="metric-row">
+                        <span class="label">Total Sales</span>
+                        <span class="value">${{ "%.2f"|format(comparison.file1.total_sales|float) }}</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="label">Transactions</span>
+                        <span class="value">{{ comparison.file1.total_transactions }}</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="label">Avg Transaction</span>
+                        <span class="value">${{ "%.2f"|format(comparison.file1.avg_transaction|float) }}</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="label">Date Range</span>
+                        <span class="value">{{ comparison.file1.date_range }}</span>
+                    </div>
+
+                    <h4 class="table-title">Top 5 Products</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Qty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in range(comparison.file1.top_products['labels']|length) %}
+                            <tr>
+                                <td>{{ comparison.file1.top_products['labels'][i] }}</td>
+                                <td>{{ comparison.file1.top_products['values'][i] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    <h4 class="table-title">Top 5 Cashiers</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Cashier</th>
+                                <th>Sales</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in range(comparison.file1.top_cashiers['labels']|length) %}
+                            <tr>
+                                <td>{{ comparison.file1.top_cashiers['labels'][i] }}</td>
+                                <td>${{ "%.2f"|format(comparison.file1.top_cashiers['values'][i]|float) }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="comparison-card">
+                    <h3>📊 File 2 Overview</h3>
+                    <div class="metric-row">
+                        <span class="label">Total Sales</span>
+                        <span class="value">${{ "%.2f"|format(comparison.file2.total_sales|float) }}</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="label">Transactions</span>
+                        <span class="value">{{ comparison.file2.total_transactions }}</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="label">Avg Transaction</span>
+                        <span class="value">${{ "%.2f"|format(comparison.file2.avg_transaction|float) }}</span>
+                    </div>
+                    <div class="metric-row">
+                        <span class="label">Date Range</span>
+                        <span class="value">{{ comparison.file2.date_range }}</span>
+                    </div>
+
+                    <h4 class="table-title">Top 5 Products</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Qty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in range(comparison.file2.top_products['labels']|length) %}
+                            <tr>
+                                <td>{{ comparison.file2.top_products['labels'][i] }}</td>
+                                <td>{{ comparison.file2.top_products['values'][i] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                    <h4 class="table-title">Top 5 Cashiers</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Cashier</th>
+                                <th>Sales</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in range(comparison.file2.top_cashiers['labels']|length) %}
+                            <tr>
+                                <td>{{ comparison.file2.top_cashiers['labels'][i] }}</td>
+                                <td>${{ "%.2f"|format(comparison.file2.top_cashiers['values'][i]|float) }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Update file labels when files are selected
+        document.getElementById('file1').addEventListener('change', function() {
+            document.getElementById('file1Name').textContent = this.files[0] ? this.files[0].name : '';
+        });
+
+        document.getElementById('file2').addEventListener('change', function() {
+            document.getElementById('file2Name').textContent = this.files[0] ? this.files[0].name : '';
+        });
+
+        // Form submission
+        document.getElementById('compareForm').addEventListener('submit', function(e) {
+            const file1 = document.getElementById('file1').files[0];
+            const file2 = document.getElementById('file2').files[0];
+
+            if (!file1 || !file2) {
+                e.preventDefault();
+                alert('Please select both files');
+                return;
+            }
+
+            if (!file1.name.endsWith('.csv') || !file2.name.endsWith('.csv')) {
+                e.preventDefault();
+                alert('Both files must be CSV format');
+                return;
+            }
+        });
+    </script>
+{% endblock %}

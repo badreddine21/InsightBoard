@@ -1,86 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+{% set page_title = 'Dashboard' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sales Intelligence Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f0f2f5;
-            padding: 20px;
-            color: #333;
-        }
-
-        .dashboard-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-
-        .user-bar {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-size: 0.95rem;
-        }
-
-        .logout-btn {
-            background: #e74c3c;
-            color: #fff;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 6px;
-            cursor: pointer;
-        }
-
-        .logout-btn:hover {
-            background: #c0392b;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 25px;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        }
-
-        .full-width {
-            grid-column: span 2;
-        }
-
-        h3 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-
-        canvas {
-            max-width: 100%;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="dashboard-header">
-        <h1>Sales Intelligence Dashboard</h1>
-        <div class="user-bar">
-            <span>Hello, {{ user.name }} ({{ user.role }})</span>
-            <button class="logout-btn" onclick="location.href='/logout'">Logout</button>
-        </div>
-    </div>
-
-    <div class="grid">
+{% block content %}
+<div class="grid">
         <div class="card full-width">
             <h3>Company Sales Trend</h3>
             <canvas id="salesChart"></canvas>
@@ -95,15 +17,17 @@
         </div>
         {% endif %}
 
+
         {% if user.role == 'hr' %}
-        <div class="card full-width" style="border-left: 5px solid #2ecc71;">
+        <div class="card full-width hr-card">
             <h3>Employee Bonus Overview (3% Commission)</h3>
-            <table id="hrBonusTable" style="width:100%; text-align:left; border-collapse: collapse;">
+            <table id="hrBonusTable" class="hr-table">
                 <thead>
-                    <tr style="border-bottom: 2px solid #eee;">
+                    <tr class="hr-table-header">
                         <th>Employee Name</th>
                         <th>Total Sales</th>
                         <th>Bonus Earned</th>
+                        <th>Status</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -113,16 +37,7 @@
         </div>
         {% endif %}
 
-        {% if user.role == 'boss' %}
-        <div class="card full-width">
-            <button onclick="location.href='/compare'">Compare Two Sales Files</button>
-            <textarea id="bossComment" placeholder="Leave a comment on this file..."></textarea>
-            <button id="bossCommentSubmit" type="button">Submit Comment</button>
-        </div>
-        {% endif %}
-    </div>
+</div>
 
-    <script src="/static/dashboard.js"></script>
-</body>
-
-</html>
+<script src="/static/dashboard.js"></script>
+{% endblock %}

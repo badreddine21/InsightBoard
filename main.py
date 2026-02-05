@@ -1,52 +1,59 @@
-from fastapi import FastAPI, UploadFile, File,HTTPException
-from fastapi.staticfiles import StaticFiles
-from fastapi.middleware.cors import CORSMiddleware
-from test import BusinessEngine
-import os
-import shutil
-import json
+from flask import Flask, render_template, request, redirect, url_for, session, jsonify
+from brain import get_dashboard_data
 
-app = FastAPI()
+app = Flask(__name__)
+app.secret_key = "super_secret_key" # Required for sessions
 
-# Allow browser communication
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Dummy user database
+USERS = {
+    "boss@company.com": {"password": "123", "role": "boss", "name": "Director"},
+    "acc@company.com": {"password": "123", "role": "sales", "name": "Head Accountant"},
+    "hr@company.com": {"password": "123", "role": "hr", "name": "HR Manager"}
+}
 
-# --- THE KEY ADDITION ---
-# This serves index.html at http://127.0.0.1:8000/static/index.html
-app.mount("/static", StaticFiles(directory="static"), name="static")
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        password = request.form.get('password')
+        user = USERS.get(email)
+        if user and user['password'] == password:
+            session['user'] = user
+            return redirect(url_for('dashboard'))
+    return render_template('login.html')
 
-@app.post("/analyze")
-async def analyze_file(file: UploadFile = File(...)):
-    allowed_extensions = {'.csv', '.xlsx', '.xls'}
-    file_ext = os.path.splitext(file.filename)[1].lower()
-    if file_ext not in allowed_extensions:
-        raise HTTPException(400, "Only CSV and Excel files are supported")
-    temp_path = f"temp_{file.filename}_{file.filename}"
-    try:
-        with open(temp_path, "wb") as buffer:
-            shutil.copyfileobj(file.file, buffer)
-        
-        try:
-            engine = BusinessEngine(temp_path)
-            engine.load_data()
-            engine.standardize_and_clean()
-            engine.classify_columns()
-            analysis = engine.run_analysis()
-            
-            report = engine.generate_json_report(analysis)
-            return json.loads(report)
-        except Exception as e:
-            return {"error": str(e), "type": type(e).__name__}
+@app.route('/dashboard')
+def dashboard():
+    if 'user' not in session:
+        return redirect(url_for('login'))
+    return render_template('dashboard.html', user=session['user'])
 
-    finally:
-        if os.path.exists(temp_path):
-            os.remove(temp_path)
+@app.route('/logout')
+def logout():
+    session.pop('user', None)
+    return redirect(url_for('login'))
 
+# Your existing API route with a small tweak for Employees
+@app.route('/api/data')
+def api_data():
+    if 'user' not in session: return jsonify({"error": "unauthorized"}), 401
+    
+    data = get_dashboard_data("data/Data_test.csv")
+    
+    # Calculate bonuses for EVERYONE (for HR/Boss/Sales to see)
+    # 3% of net_amount for each cashier
+    bonuses = []
+    labels = data['cashier_sales']['labels']
+    values = data['cashier_sales']['values']
+    
+    for i in range(len(labels)):
+        bonuses.append({
+            "name": labels[i],
+            "total_sales": values[i],
+            "bonus": round(values[i] * 0.03, 2)
+        })
+    
+    data['bonus_report'] = bonuses # Attach this to the main data object
+    return jsonify(data)
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    app.run(debug=True)

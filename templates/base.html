@@ -9,7 +9,7 @@
 </head>
 <body class="app-page">
     <div class="app-layout">
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
             <div class="sidebar-header">
                 <div class="app-name">InsightBoard</div>
                 <div class="user-meta">
@@ -25,9 +25,9 @@
                 {% if user.role in ['boss', 'sales'] %}
                 <a class="nav-link" href="/compare">📈 Compare</a>
                 {% endif %}
-                <a class="nav-link logout-link" href="/logout">🚪 Logout</a>
             </nav>
         </aside>
+        <a class="logout-button" href="/logout">🚪 Logout</a>
         <main class="main-content">
             <div class="page-header">
                 <h1>{{ page_title or 'Dashboard' }}</h1>

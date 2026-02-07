@@ -2,6 +2,10 @@
 {% set page_title = 'Comments' %}
 
 {% block content %}
+<div class="professional-page">
+    <div class="page-heading">
+        <h1>Team Communication</h1>
+    </div>
 {% if user.role == 'boss' %}
 <div class="comments-card">
     <h3>💬 Send Comment to Department</h3>
@@ -31,4 +35,5 @@
 {% endif %}
 
 <script src="/static/comments.js"></script>
+</div>
 {% endblock %}

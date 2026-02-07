@@ -1,10 +1,19 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 
 def load_and_process_data(file_path):
-    """Load and preprocess the sales data."""
-    df = pd.read_csv(file_path, low_memory=False)
+    """Load and preprocess the sales data from CSV or Excel files."""
+    # Detect file type by extension
+    file_extension = os.path.splitext(file_path)[1].lower()
+    
+    if file_extension == '.csv':
+        df = pd.read_csv(file_path, low_memory=False)
+    elif file_extension in ['.xlsx', '.xls']:
+        df = pd.read_excel(file_path)
+    else:
+        raise ValueError("File must be CSV or Excel format (.csv, .xlsx, .xls)")
     
     # Standardize column names
     df.columns = df.columns.str.strip().str.lower()
@@ -147,5 +156,5 @@ def compare_files(file_path1, file_path2):
     }
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     df = load_and_process_data("data/Data_test.csv")

@@ -20,7 +20,7 @@ comments_storage = {
     'hr': []
 }
 
-# Dummy user database
+# small company with 3 users: boss, sales, hr
 USERS = {
     "boss@company.com": {"password": "123", "role": "boss", "name": "Director"},
     "acc@company.com": {"password": "123", "role": "sales", "name": "Head Accountant"},
@@ -34,8 +34,9 @@ def login():
         password = request.form.get('password')
         user = USERS.get(email)
         if user and user['password'] == password:
+            session.clear()  # Clear any previous session data
             session['user'] = user
-            return redirect(url_for('upload'))
+            return redirect(url_for('dashboard'))
     return render_template('login.html')
 
 @app.route('/')
@@ -126,7 +127,7 @@ def compare():
 
 @app.route('/logout')
 def logout():
-    session.pop('user', None)
+    session.clear()  # Clear all session data including uploaded files
     return redirect(url_for('login'))
 
 @app.route('/api/comments', methods=['GET', 'POST', 'DELETE'])
@@ -187,8 +188,19 @@ def api_comments():
 def api_data():
     if 'user' not in session: return jsonify({"error": "unauthorized"}), 401
     
-    # Use uploaded file if available, otherwise use default
-    data_file = session.get('data_file', 'data/Data_test.csv')
+    # Check if user has uploaded a file
+    data_file = session.get('data_file')
+    
+    # If no file uploaded, return empty data structure
+    if not data_file:
+        return jsonify({
+            "daily_sales": {"labels": [], "values": []},
+            "top_products": {"labels": [], "values": []},
+            "cashier_sales": {"labels": [], "values": []},
+            "discounts": {"labels": [], "values": []},
+            "bonus_report": []
+        })
+    
     data = get_dashboard_data(data_file)
     
     # Calculate bonuses for EVERYONE (for HR/Boss/Sales to see)

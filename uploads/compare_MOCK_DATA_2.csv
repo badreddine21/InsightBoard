@@ -1,0 +1,1001 @@
+transaction_id,date,product_name,quantity,amount,discount,cashier
+1,2/11/2025,Compound - Raspberry,170,$441.50,$18.87,arnold
+2,2/26/2025,Sherry - Dry,65,$579.75,$2.21,Sona
+3,2/11/2025,Broom - Push,198,$106.68,$45.85,bet
+4,2/22/2025,Nantuket Peach Orange,4,$265.07,$47.44,bet
+5,2/10/2025,Bananas,83,$378.32,$36.49,Sona
+6,2/20/2025,Island Oasis - Cappucino Mix,95,$551.93,$38.11,arnold
+7,2/11/2025,"Pail - 15l White, With Handle",58,$372.13,$14.98,Sona
+8,2/22/2025,Wine - Segura Viudas Aria Brut,193,$482.79,$20.89,bet
+9,2/6/2025,Beer - Tetleys,22,$347.71,$23.04,Sona
+10,2/24/2025,Beef - Tenderloin Tails,12,$389.96,$12.71,Sona
+11,2/26/2025,Pork Salted Bellies,189,$364.10,$15.70,bet
+12,2/5/2025,Energy Drink,170,$343.01,$38.32,Sona
+13,2/14/2025,Temperature Recording Station,84,$278.89,$2.09,Sona
+14,2/12/2025,Oil - Shortening - All - Purpose,158,$455.13,$16.54,Sona
+15,2/13/2025,Lamb - Rack,148,$201.90,$0.55,arnold
+16,2/22/2025,"Syrup - Monin, Irish Cream",103,$81.04,$15.64,bet
+17,2/15/2025,Sugar - Icing,28,$117.55,$14.31,arnold
+18,2/27/2025,Cucumber - Pickling Ontario,194,$131.72,$40.49,bet
+19,2/17/2025,Beer - True North Lager,132,$281.50,$24.85,Sona
+20,2/25/2025,Veal - Loin,109,$391.35,$4.31,bet
+21,2/8/2025,Sobe - Cranberry Grapefruit,152,$344.41,$28.51,arnold
+22,2/23/2025,Wine - Balbach Riverside,100,$435.62,$15.66,arnold
+23,2/11/2025,Oven Mitt - 13 Inch,100,$368.70,$26.37,arnold
+24,2/12/2025,Icecream - Dibs,195,$322.72,$20.38,Sona
+25,2/4/2025,Soup - French Can Pea,26,$204.31,$48.66,bet
+26,2/25/2025,"Ham - Smoked, Bone - In",42,$492.12,$40.39,Sona
+27,2/5/2025,Red Cod Fillets - 225g,66,$246.53,$38.60,Sona
+28,2/14/2025,Wine - Casillero Del Diablo,33,$258.43,$6.96,arnold
+29,2/17/2025,Bamboo Shoots - Sliced,41,$562.15,$30.31,bet
+30,2/26/2025,Oil - Sesame,16,$450.16,$13.31,Sona
+31,2/18/2025,Squid Ink,125,$98.12,$35.34,Sona
+32,2/10/2025,Lamb Shoulder Boneless Nz,195,$524.97,$40.06,arnold
+33,2/4/2025,Wine - Winzer Krems Gruner,117,$433.29,$3.41,Sona
+34,2/4/2025,"Lamb - Whole, Frozen",149,$135.46,$24.50,arnold
+35,2/5/2025,Appetizer - Asian Shrimp Roll,159,$368.25,$47.48,bet
+36,2/8/2025,Lettuce - Curly Endive,200,$62.79,$17.43,bet
+37,2/8/2025,Lettuce - Boston Bib - Organic,197,$390.98,$38.03,Sona
+38,2/16/2025,Quail - Jumbo Boneless,182,$509.73,$2.57,arnold
+39,2/12/2025,"Sauce - Soya, Light",108,$472.65,$40.75,bet
+40,2/11/2025,Fennel - Seeds,104,$330.83,$30.59,arnold
+41,2/9/2025,Eggplant - Regular,36,$510.82,$13.00,arnold
+42,2/7/2025,"Trout - Hot Smkd, Dbl Fillet",174,$413.78,$40.64,bet
+43,2/27/2025,Milk - Chocolate 250 Ml,89,$79.15,$1.51,bet
+44,2/24/2025,Alize Gold Passion,48,$96.69,$46.04,bet
+45,2/20/2025,Sauce - Ranch Dressing,22,$483.16,$41.59,Sona
+46,2/21/2025,Extract - Almond,111,$453.30,$17.15,bet
+47,2/6/2025,Beer - Blue,107,$588.06,$10.05,arnold
+48,2/19/2025,"Leeks - Baby, White",175,$174.61,$42.75,Sona
+49,2/6/2025,Wine - Chenin Blanc K.w.v.,115,$538.99,$9.49,arnold
+50,2/16/2025,Kaffir Lime Leaves,88,$115.98,$29.37,arnold
+51,2/7/2025,Kiwi,181,$325.28,$25.20,Sona
+52,2/11/2025,"Placemat - Scallop, White",130,$379.54,$30.21,bet
+53,2/8/2025,Wine - Cotes Du Rhone,193,$248.80,$3.18,bet
+54,2/24/2025,Croissants Thaw And Serve,93,$583.31,$38.78,bet
+55,2/5/2025,"Bread - Roll, Canadian Dinner",28,$216.11,$42.50,Sona
+56,2/4/2025,"Wine - Red, Mosaic Zweigelt",119,$452.18,$36.42,bet
+57,2/24/2025,Tofu - Soft,134,$133.38,$2.30,bet
+58,2/19/2025,Ice Cream - Chocolate,99,$491.61,$45.24,Sona
+59,2/7/2025,"Pork - Tenderloin, Fresh",109,$443.53,$32.21,Sona
+60,2/13/2025,Cloves - Ground,121,$399.79,$0.45,bet
+61,2/11/2025,Ice Cream - Chocolate,158,$52.53,$17.70,Sona
+62,2/17/2025,Tofu - Soft,66,$249.06,$34.11,Sona
+63,2/17/2025,Wine - Zinfandel Rosenblum,173,$122.49,$5.40,arnold
+64,2/10/2025,Island Oasis - Mango Daiquiri,78,$136.49,$6.75,bet
+65,2/17/2025,Energy Drink - Redbull 355ml,26,$218.10,$5.70,arnold
+66,2/14/2025,Wine - Barbera Alba Doc 2001,192,$175.87,$45.75,bet
+67,2/18/2025,Cookies - Assorted,91,$466.28,$42.82,arnold
+68,2/19/2025,Cheese - Gorgonzola,198,$312.85,$26.70,arnold
+69,2/27/2025,"Fish - Halibut, Cold Smoked",124,$433.62,$36.73,bet
+70,2/9/2025,Water - Evian 355 Ml,25,$282.08,$12.68,bet
+71,2/25/2025,Creme De Cacao Mcguines,1,$467.21,$43.24,arnold
+72,2/27/2025,Sauce - Sesame Thai Dressing,45,$171.02,$1.17,bet
+73,2/8/2025,Chocolate Eclairs,123,$226.65,$19.26,arnold
+74,2/21/2025,Wine - Segura Viudas Aria Brut,45,$177.97,$20.95,arnold
+75,2/12/2025,Wine - Ej Gallo Sierra Valley,46,$168.12,$20.07,Sona
+76,2/9/2025,Vinegar - White Wine,76,$207.36,$2.32,arnold
+77,2/5/2025,Bacardi Breezer - Strawberry,4,$377.52,$27.36,arnold
+78,2/21/2025,Steel Wool,183,$365.45,$48.72,Sona
+79,2/10/2025,"Chicken - White Meat, No Tender",3,$115.88,$29.38,Sona
+80,2/4/2025,Curry Paste - Green Masala,154,$157.18,$11.94,bet
+81,2/6/2025,"Beef - Bones, Cut - Up",69,$133.01,$47.45,bet
+82,2/8/2025,Cheese - Bakers Cream Cheese,80,$588.41,$36.75,Sona
+83,2/22/2025,Chicken - White Meat With Tender,161,$314.23,$29.71,arnold
+84,2/14/2025,"Flour - Buckwheat, Dark",120,$251.20,$22.45,bet
+85,2/25/2025,Shallots,139,$429.29,$21.07,arnold
+86,2/14/2025,Shallots,135,$417.85,$25.22,arnold
+87,2/26/2025,"Sauce - Bernaise, Mix",70,$224.34,$3.80,arnold
+88,2/19/2025,Cookies Cereal Nut,150,$374.89,$6.70,bet
+89,2/24/2025,Energy Drink,106,$67.72,$25.70,Sona
+90,2/14/2025,Syrup - Kahlua Chocolate,145,$295.23,$17.82,Sona
+91,2/17/2025,White Baguette,145,$79.32,$33.09,bet
+92,2/12/2025,"Stock - Chicken, White",92,$341.08,$21.57,Sona
+93,2/20/2025,"Crab - Blue, Frozen",196,$214.41,$30.43,Sona
+94,2/27/2025,Grouper - Fresh,125,$201.56,$26.99,Sona
+95,2/17/2025,Yucca,183,$275.99,$15.73,arnold
+96,2/21/2025,Rum - Mount Gay Eclipes,69,$391.74,$15.73,Sona
+97,2/26/2025,Saskatoon Berries - Frozen,53,$518.27,$34.46,Sona
+98,2/21/2025,"Crush - Orange, 355ml",35,$303.80,$3.45,Sona
+99,2/22/2025,Veal - Heart,101,$273.90,$37.95,arnold
+100,2/16/2025,"Shrimp - Baby, Warm Water",187,$355.76,$15.28,Sona
+101,2/16/2025,Poppy Seed,193,$445.13,$24.39,bet
+102,2/9/2025,Chicken Thigh - Bone Out,191,$339.81,$3.22,arnold
+103,2/5/2025,"Tomatoes - Vine Ripe, Yellow",173,$180.14,$6.94,arnold
+104,2/12/2025,Sausage - Chorizo,145,$134.07,$3.66,bet
+105,2/22/2025,Cotton Wet Mop 16 Oz,128,$191.35,$46.85,arnold
+106,2/18/2025,Soup - Campbells Chili Veg,3,$538.67,$22.89,arnold
+107,2/16/2025,Longos - Penne With Pesto,153,$190.78,$7.99,Sona
+108,2/4/2025,Coriander - Ground,126,$369.67,$28.02,Sona
+109,2/21/2025,Dates,52,$266.41,$28.18,arnold
+110,2/16/2025,Cookie Dough - Chocolate Chip,134,$511.03,$42.45,bet
+111,2/26/2025,"Beef - Cooked, Corned",74,$90.58,$11.86,arnold
+112,2/25/2025,Kolrabi,58,$242.56,$12.79,arnold
+113,2/23/2025,Asparagus - Mexican,108,$239.76,$44.17,bet
+114,2/8/2025,Pastry - Banana Tea Loaf,60,$403.36,$1.37,arnold
+115,2/25/2025,Bread Base - Gold Formel,21,$512.00,$1.61,Sona
+116,2/6/2025,"Juice - Pineapple, 341 Ml",131,$270.12,$36.43,Sona
+117,2/23/2025,Hand Towel,30,$488.38,$17.52,Sona
+118,2/18/2025,Chips Potato Swt Chilli Sour,5,$219.94,$38.02,arnold
+119,2/22/2025,Cassis,85,$410.80,$7.22,Sona
+120,2/26/2025,Pickerel - Fillets,105,$570.89,$47.68,bet
+121,2/15/2025,Radish,157,$395.09,$1.80,bet
+122,2/7/2025,Soho Lychee Liqueur,77,$207.56,$42.63,Sona
+123,2/26/2025,"Stock - Chicken, White",81,$555.17,$19.63,bet
+124,2/21/2025,Wine - Prosecco Valdobienne,58,$240.66,$43.05,bet
+125,2/22/2025,Soup - Base Broth Chix,119,$373.57,$38.44,bet
+126,2/10/2025,Baking Powder,81,$583.61,$19.71,Sona
+127,2/20/2025,Pepper - Green,130,$334.55,$26.09,arnold
+128,2/23/2025,Cake - Box Window 10x10x2.5,147,$366.28,$25.12,Sona
+129,2/15/2025,"Cheese - Mozzarella, Shredded",87,$143.35,$3.20,Sona
+130,2/23/2025,"Soda Water - Club Soda, 355 Ml",115,$546.75,$27.98,Sona
+131,2/7/2025,Gingerale - Diet - Schweppes,175,$589.31,$48.46,Sona
+132,2/20/2025,Bandage - Flexible Neon,52,$161.64,$2.81,bet
+133,2/6/2025,"Wine - Red, Mosaic Zweigelt",155,$245.97,$10.53,Sona
+134,2/7/2025,Pepper - Gypsy Pepper,5,$368.29,$35.50,arnold
+135,2/21/2025,"Sauce - Soya, Dark",102,$125.74,$38.03,bet
+136,2/7/2025,Molasses - Fancy,32,$219.04,$38.69,Sona
+137,2/15/2025,Cheese - Montery Jack,77,$390.21,$12.08,Sona
+138,2/10/2025,Truffle - Whole Black Peeled,158,$322.04,$47.91,bet
+139,2/18/2025,"Lemonade - Mandarin, 591 Ml",152,$486.31,$48.92,bet
+140,2/6/2025,Easy Off Oven Cleaner,80,$357.35,$20.45,bet
+141,2/18/2025,Muffin Carrot - Individual,199,$502.96,$17.38,Sona
+142,2/10/2025,Shrimp - Black Tiger 13/15,199,$380.71,$12.22,arnold
+143,2/11/2025,Lemons,124,$240.70,$6.57,arnold
+144,2/23/2025,Guava,6,$475.63,$23.76,Sona
+145,2/7/2025,Bar - Sweet And Salty Chocolate,27,$325.19,$16.88,arnold
+146,2/21/2025,"Squash - Pattypan, Yellow",64,$360.60,$13.04,Sona
+147,2/10/2025,Soup - Cream Of Broccoli,199,$127.97,$14.13,Sona
+148,2/16/2025,"Apple - Delicious, Red",109,$311.34,$8.17,Sona
+149,2/10/2025,Hold Up Tool Storage Rack,173,$257.00,$30.87,arnold
+150,2/15/2025,Onions - Red,138,$276.51,$17.91,bet
+151,2/7/2025,Cheese - Swiss Sliced,161,$67.47,$6.06,bet
+152,2/10/2025,"Wine - Niagara,vqa Reisling",146,$242.99,$9.40,arnold
+153,2/15/2025,Jolt Cola - Red Eye,45,$348.23,$19.40,Sona
+154,2/13/2025,Fond - Chocolate,12,$346.35,$40.70,bet
+155,2/7/2025,Corn Meal,72,$482.80,$16.20,arnold
+156,2/8/2025,Chocolate Bar - Reese Pieces,60,$328.31,$3.85,bet
+157,2/12/2025,Oil - Sesame,36,$433.96,$16.21,bet
+158,2/9/2025,Cotton Wet Mop 16 Oz,133,$206.92,$16.72,Sona
+159,2/15/2025,Tuna - Fresh,59,$593.66,$17.03,Sona
+160,2/11/2025,Chivas Regal - 12 Year Old,127,$159.83,$10.69,Sona
+161,2/25/2025,Toothpick Frilled,122,$123.15,$6.74,Sona
+162,2/10/2025,Coffee Caramel Biscotti,185,$431.17,$5.08,arnold
+163,2/17/2025,Lettuce - Curly Endive,25,$450.45,$17.31,bet
+164,2/9/2025,"Pasta - Rotini, Colour, Dry",60,$278.13,$45.01,arnold
+165,2/15/2025,Lighter - Bbq,142,$406.75,$10.81,Sona
+166,2/20/2025,Wine - Zonnebloem Pinotage,32,$314.37,$42.37,bet
+167,2/11/2025,Coffee Cup 12oz 5342cd,64,$408.56,$6.74,Sona
+168,2/16/2025,"Oil - Shortening,liqud, Fry",10,$238.05,$22.74,bet
+169,2/18/2025,Scallop - St. Jaques,77,$371.27,$36.89,arnold
+170,2/21/2025,Wine - Segura Viudas Aria Brut,194,$80.64,$8.78,Sona
+171,2/14/2025,Ice Cream - Vanilla,46,$441.33,$6.02,arnold
+172,2/23/2025,Baking Powder,87,$417.83,$42.66,bet
+173,2/24/2025,Bread - Dark Rye,160,$240.96,$42.90,bet
+174,2/10/2025,Bagelers,91,$127.80,$40.52,bet
+175,2/12/2025,Salmon Steak - Cohoe 8 Oz,50,$57.30,$11.92,arnold
+176,2/6/2025,Chickensplit Half,160,$389.63,$26.23,arnold
+177,2/8/2025,Onions - White,13,$294.63,$30.93,Sona
+178,2/17/2025,Cheese - Le Cheve Noir,116,$241.30,$32.65,arnold
+179,2/5/2025,Cheese - Brie Roitelet,10,$544.06,$8.36,arnold
+180,2/25/2025,Marjoram - Fresh,142,$549.43,$22.41,arnold
+181,2/9/2025,"Napkin - Beverge, White 2 - Ply",146,$421.39,$23.94,Sona
+182,2/5/2025,"Beef - Ox Tongue, Pickled",10,$136.35,$0.51,Sona
+183,2/5/2025,Crush - Cream Soda,156,$171.05,$29.05,bet
+184,2/17/2025,Sausage - Meat,184,$70.25,$37.54,bet
+185,2/22/2025,Fib N9 - Prague Powder,83,$224.66,$15.57,bet
+186,2/5/2025,Beans - Fava Fresh,32,$415.16,$30.24,bet
+187,2/12/2025,"Spoon - Soup, Plastic",165,$210.40,$25.62,bet
+188,2/18/2025,Bagel - Whole White Sesame,32,$461.66,$3.18,Sona
+189,2/19/2025,Peach - Fresh,145,$471.16,$12.81,arnold
+190,2/9/2025,Flower - Commercial Bronze,165,$365.50,$29.13,bet
+191,2/9/2025,Wine - Beringer Founders Estate,181,$120.36,$23.43,bet
+192,2/18/2025,Figs,193,$462.35,$4.45,bet
+193,2/21/2025,"Lamb - Whole, Fresh",179,$590.09,$21.57,bet
+194,2/14/2025,Basil - Fresh,90,$575.98,$42.53,Sona
+195,2/8/2025,Vol Au Vents,79,$441.50,$8.31,bet
+196,2/11/2025,Chervil - Fresh,173,$181.65,$9.50,arnold
+197,2/18/2025,Wine - Jackson Triggs Okonagan,177,$431.17,$43.20,arnold
+198,2/14/2025,Lemons,88,$306.66,$41.78,bet
+199,2/4/2025,Pastry - Chocolate Chip Muffin,57,$98.26,$8.58,Sona
+200,2/11/2025,Bread - Rosemary Focaccia,149,$189.94,$26.73,Sona
+201,2/17/2025,Hog / Sausage Casing - Pork,39,$54.10,$26.41,arnold
+202,2/5/2025,Wine - Vineland Estate Semi - Dry,160,$404.53,$45.41,Sona
+203,2/19/2025,Coffee - Cafe Moreno,186,$546.78,$13.04,bet
+204,2/15/2025,Yeast Dry - Fermipan,161,$288.78,$25.97,Sona
+205,2/26/2025,"Croissant, Raw - Mini",97,$459.81,$22.86,bet
+206,2/10/2025,Beer - Camerons Auburn,106,$491.69,$19.13,bet
+207,2/7/2025,Lamb Rack - Ontario,136,$135.17,$14.80,arnold
+208,2/8/2025,Coffee - Espresso,177,$461.62,$40.40,arnold
+209,2/22/2025,"Cherries - Bing, Canned",31,$370.01,$20.59,Sona
+210,2/18/2025,Basil - Thai,100,$383.85,$14.61,bet
+211,2/22/2025,Banana - Leaves,34,$276.84,$36.02,arnold
+212,2/17/2025,Pan Grease,3,$57.05,$21.50,arnold
+213,2/4/2025,Calaloo,58,$266.01,$48.70,arnold
+214,2/17/2025,Pickles - Gherkins,170,$560.56,$10.44,arnold
+215,2/12/2025,Blouse / Shirt / Sweater,181,$130.41,$13.78,bet
+216,2/17/2025,Cinnamon Buns Sticky,200,$407.13,$39.68,arnold
+217,2/22/2025,Pepper - Cayenne,124,$345.80,$40.95,bet
+218,2/6/2025,Wine - Cabernet Sauvignon,156,$281.41,$1.17,Sona
+219,2/13/2025,Wine - Chateau Bonnet,70,$486.34,$20.32,arnold
+220,2/22/2025,Rice - Aborio,114,$184.74,$6.49,arnold
+221,2/24/2025,Glove - Cutting,160,$77.90,$0.48,bet
+222,2/23/2025,Beer - Sleemans Cream Ale,99,$421.19,$5.03,Sona
+223,2/16/2025,Cheese - Swiss,156,$377.04,$12.54,bet
+224,2/14/2025,Cheese - Comtomme,35,$531.37,$48.06,bet
+225,2/5/2025,"Mushroom - Oyster, Fresh",52,$102.04,$11.65,Sona
+226,2/13/2025,Lamb Tenderloin Nz Fr,112,$119.32,$13.50,Sona
+227,2/12/2025,Foil Wrap,64,$211.23,$19.75,arnold
+228,2/10/2025,"Juice - Cranberry, 341 Ml",121,$470.00,$36.44,Sona
+229,2/17/2025,Mortadella,66,$536.27,$10.05,bet
+230,2/24/2025,"Beef - Rouladin, Sliced",105,$155.58,$32.99,arnold
+231,2/4/2025,Apple - Fuji,67,$177.88,$18.53,Sona
+232,2/16/2025,Pastrami,9,$460.18,$15.06,Sona
+233,2/17/2025,Cream - 18%,153,$541.20,$9.72,arnold
+234,2/22/2025,"Lemonade - Black Cherry, 591 Ml",187,$564.45,$18.29,Sona
+235,2/18/2025,Mustard - Individual Pkg,33,$96.65,$39.35,arnold
+236,2/15/2025,Wine - Montecillo Rioja Crianza,192,$571.57,$4.01,Sona
+237,2/15/2025,Vinegar - Red Wine,11,$290.90,$19.96,bet
+238,2/17/2025,Grenadillo,91,$428.71,$24.98,bet
+239,2/17/2025,"Sauce - Black Current, Dry Mix",182,$225.68,$19.69,bet
+240,2/22/2025,Wine - Sake,180,$558.23,$30.01,Sona
+241,2/5/2025,Shrimp - Prawn,38,$317.91,$43.42,Sona
+242,2/4/2025,"Turnip - White, Organic",15,$207.39,$34.63,Sona
+243,2/27/2025,Cheese - Wine,192,$432.94,$43.28,bet
+244,2/12/2025,Chicken - Ground,167,$182.31,$37.24,arnold
+245,2/21/2025,Cheese - Le Cheve Noir,28,$570.09,$45.23,Sona
+246,2/13/2025,Pasta - Angel Hair,18,$398.78,$14.98,arnold
+247,2/16/2025,Sauce - Hp,52,$358.18,$35.69,arnold
+248,2/18/2025,Sauce - Hp,74,$95.83,$23.67,arnold
+249,2/11/2025,English Muffin,153,$594.60,$1.63,bet
+250,2/4/2025,"Artichokes - Knobless, White",72,$528.35,$24.71,arnold
+251,2/24/2025,Table Cloth 54x54 White,7,$174.06,$16.79,arnold
+252,2/8/2025,Chips Potato Reg 43g,150,$115.92,$41.26,Sona
+253,2/27/2025,Bandage - Fexible 1x3,177,$571.22,$26.41,arnold
+254,2/24/2025,Beef - Salted,18,$113.95,$46.99,bet
+255,2/25/2025,Tea - English Breakfast,135,$428.55,$2.18,Sona
+256,2/19/2025,Kellogs Raisan Bran Bars,35,$125.48,$15.73,arnold
+257,2/23/2025,Soup - Verve - Chipotle Chicken,172,$527.11,$15.74,bet
+258,2/19/2025,Cheese - Mascarpone,36,$313.01,$9.99,arnold
+259,2/14/2025,"Tray - Foam, Square 4 - S",143,$214.48,$10.48,arnold
+260,2/19/2025,Pork - Liver,145,$166.02,$30.39,Sona
+261,2/22/2025,Bagelers - Cinn / Brown,91,$413.61,$32.53,Sona
+262,2/4/2025,Veal - Provimi Inside,59,$293.96,$48.15,bet
+263,2/22/2025,Syrup - Pancake,69,$110.64,$31.18,bet
+264,2/4/2025,Turkey Tenderloin Frozen,176,$493.59,$15.69,arnold
+265,2/27/2025,Baking Powder,33,$328.06,$32.86,arnold
+266,2/19/2025,"Veal - Insides, Grains",100,$192.34,$21.50,arnold
+267,2/19/2025,"Wine - White, Schroder And Schyl",68,$179.22,$20.67,bet
+268,2/17/2025,Coffee - Egg Nog Capuccino,190,$97.97,$11.08,bet
+269,2/11/2025,Pur Value,110,$426.25,$11.33,Sona
+270,2/14/2025,Pimento - Canned,39,$249.55,$8.88,Sona
+271,2/13/2025,Duck - Fat,56,$247.59,$43.00,arnold
+272,2/10/2025,Bagel - Plain,184,$287.35,$27.77,Sona
+273,2/19/2025,Pineapple - Golden,82,$80.47,$10.93,bet
+274,2/20/2025,Breakfast Quesadillas,98,$557.14,$10.33,arnold
+275,2/11/2025,Fib N9 - Prague Powder,101,$568.17,$25.96,bet
+276,2/13/2025,"Vermouth - Sweet, Cinzano",158,$65.76,$37.97,Sona
+277,2/21/2025,"Split Peas - Yellow, Dry",113,$471.85,$10.82,arnold
+278,2/11/2025,Island Oasis - Raspberry,154,$303.38,$10.78,Sona
+279,2/4/2025,Calvados - Boulard,75,$571.88,$8.82,Sona
+280,2/27/2025,Flour - Teff,188,$213.43,$23.33,arnold
+281,2/9/2025,Honey - Lavender,145,$535.67,$0.43,Sona
+282,2/7/2025,Ostrich - Fan Fillet,124,$361.20,$20.40,bet
+283,2/4/2025,Wine - Two Oceans Cabernet,40,$219.77,$18.55,arnold
+284,2/14/2025,Wine - Cousino Macul Antiguas,30,$294.63,$39.34,Sona
+285,2/14/2025,Cucumber - English,155,$454.81,$28.71,bet
+286,2/7/2025,Squid - Tubes / Tenticles 10/20,65,$131.12,$12.58,Sona
+287,2/25/2025,Cake Sheet Combo Party Pack,27,$313.80,$0.56,Sona
+288,2/4/2025,Guava,38,$178.70,$7.34,Sona
+289,2/14/2025,Cheese - Grie Des Champ,112,$286.80,$47.87,Sona
+290,2/22/2025,Pork Salted Bellies,146,$287.36,$35.39,bet
+291,2/16/2025,Lettuce - Escarole,49,$144.92,$8.41,arnold
+292,2/8/2025,"Soup - Knorr, Chicken Noodle",78,$366.98,$7.80,Sona
+293,2/7/2025,Wine - Gewurztraminer Pierre,64,$112.40,$16.35,Sona
+294,2/12/2025,Cucumber - Pickling Ontario,179,$411.56,$46.48,arnold
+295,2/23/2025,Garbag Bags - Black,59,$335.36,$30.98,arnold
+296,2/10/2025,Wine - Guy Sage Touraine,110,$179.29,$29.42,Sona
+297,2/17/2025,Lid Coffee Cup 8oz Blk,200,$269.59,$33.05,arnold
+298,2/11/2025,Soup - Base Broth Beef,74,$239.83,$5.24,Sona
+299,2/26/2025,Cheese - Oka,119,$402.98,$7.77,Sona
+300,2/13/2025,Trueblue - Blueberry,195,$595.31,$13.94,Sona
+301,2/21/2025,Dooleys Toffee,16,$128.72,$3.11,Sona
+302,2/14/2025,"Crab - Blue, Frozen",69,$192.80,$7.56,Sona
+303,2/24/2025,Wine - Pinot Noir Stoneleigh,153,$226.53,$46.83,bet
+304,2/26/2025,Cut Wakame - Hanawakaba,119,$462.00,$17.02,Sona
+305,2/13/2025,Spinach - Baby,28,$273.36,$6.97,arnold
+306,2/8/2025,Coffee Beans - Chocolate,128,$246.47,$22.96,arnold
+307,2/17/2025,Foil Cont Round,19,$510.58,$24.89,bet
+308,2/23/2025,"Cheese - Woolwich Goat, Log",61,$145.20,$20.23,bet
+309,2/8/2025,Clam Nectar,111,$530.45,$48.43,bet
+310,2/16/2025,Cheese - Comtomme,181,$123.17,$33.64,arnold
+311,2/8/2025,"Hickory Smoke, Liquid",16,$121.88,$39.62,arnold
+312,2/10/2025,Oyster - In Shell,43,$51.99,$26.42,Sona
+313,2/17/2025,Tomatoes - Roma,108,$588.71,$21.15,arnold
+314,2/19/2025,Sprouts - Brussel,42,$546.36,$19.49,Sona
+315,2/19/2025,Melon - Cantaloupe,82,$132.38,$11.79,bet
+316,2/25/2025,Crush - Cream Soda,173,$558.18,$17.86,arnold
+317,2/10/2025,Evaporated Milk - Skim,52,$88.23,$46.26,bet
+318,2/15/2025,Basil - Seedlings Cookstown,146,$264.35,$9.36,Sona
+319,2/25/2025,Venison - Racks Frenched,50,$67.52,$44.26,arnold
+320,2/22/2025,Beef - Eye Of Round,199,$434.68,$48.81,bet
+321,2/27/2025,Miso - Soy Bean Paste,198,$315.40,$25.31,Sona
+322,2/14/2025,Ecolab Crystal Fusion,12,$311.61,$2.29,Sona
+323,2/25/2025,Flour - Fast / Rapid,91,$186.25,$36.84,bet
+324,2/23/2025,Rabbit - Frozen,113,$390.02,$20.62,Sona
+325,2/5/2025,Magnotta - Bel Paese White,140,$64.36,$25.41,Sona
+326,2/21/2025,Pasta - Orecchiette,133,$203.02,$30.06,bet
+327,2/22/2025,Sugar - Palm,102,$245.36,$40.16,Sona
+328,2/17/2025,"Sauce - Black Current, Dry Mix",28,$541.66,$3.47,bet
+329,2/9/2025,Creme De Cacao Mcguines,20,$226.18,$30.38,bet
+330,2/10/2025,Lobster - Tail 6 Oz,49,$483.77,$33.29,bet
+331,2/16/2025,Rice - 7 Grain Blend,111,$345.39,$1.85,bet
+332,2/11/2025,Soup - Cream Of Broccoli,150,$418.71,$19.57,Sona
+333,2/14/2025,"Pepper - Chillies, Crushed",122,$310.70,$16.55,arnold
+334,2/11/2025,Pastry - Key Limepoppy Seed Tea,162,$77.30,$38.99,bet
+335,2/6/2025,Turkey Tenderloin Frozen,72,$405.82,$19.20,arnold
+336,2/7/2025,Tea - Herbal Orange Spice,75,$368.37,$3.09,bet
+337,2/20/2025,"Artichoke - Bottom, Canned",117,$295.45,$25.97,arnold
+338,2/22/2025,Blackberries,165,$208.09,$31.22,bet
+339,2/27/2025,Chicken - Wieners,74,$501.06,$38.69,Sona
+340,2/4/2025,"Sauce - Apple, Unsweetened",30,$57.12,$40.96,Sona
+341,2/25/2025,Canadian Emmenthal,100,$361.77,$38.38,bet
+342,2/24/2025,Numi - Assorted Teas,19,$459.16,$30.17,bet
+343,2/22/2025,Gelatine Leaves - Bulk,190,$246.92,$28.89,Sona
+344,2/10/2025,Lamb - Whole Head Off,43,$68.67,$45.44,arnold
+345,2/10/2025,Ecolab - Hobart Upr Prewash Arm,29,$69.16,$31.79,Sona
+346,2/7/2025,Pepper - Red Bell,164,$281.15,$15.73,arnold
+347,2/16/2025,Veal - Ground,2,$492.41,$11.50,arnold
+348,2/15/2025,Cinnamon - Stick,19,$122.97,$27.28,arnold
+349,2/22/2025,Bread - Onion Focaccia,158,$78.15,$15.10,bet
+350,2/21/2025,Dome Lid Clear P92008h,40,$323.13,$19.27,arnold
+351,2/24/2025,Chocolate - Unsweetened,6,$449.33,$10.06,arnold
+352,2/9/2025,Cake - Dulce De Leche,156,$539.07,$1.16,bet
+353,2/23/2025,Chips - Potato Jalapeno,179,$372.58,$9.20,arnold
+354,2/7/2025,Scallops - U - 10,141,$131.76,$26.34,bet
+355,2/20/2025,Long Island Ice Tea,196,$194.18,$39.12,arnold
+356,2/27/2025,"Yogurt - Banana, 175 Gr",147,$116.64,$13.89,bet
+357,2/25/2025,Chervil - Fresh,80,$563.36,$6.80,bet
+358,2/5/2025,Coffee - Flavoured,72,$379.02,$43.24,arnold
+359,2/9/2025,"Beans - Navy, Dry",149,$156.71,$30.93,bet
+360,2/18/2025,"Doilies - 8, Paper",38,$389.45,$37.24,arnold
+361,2/21/2025,Glass Clear 7 Oz Xl,183,$407.86,$9.86,bet
+362,2/14/2025,"Syrup - Golden, Lyles",105,$459.07,$29.35,arnold
+363,2/19/2025,"Asparagus - White, Canned",107,$425.55,$25.04,arnold
+364,2/12/2025,Oil - Olive,79,$523.31,$28.93,arnold
+365,2/20/2025,"Salmon - Atlantic, Skin On",89,$491.52,$39.69,bet
+366,2/22/2025,Longos - Assorted Sandwich,177,$575.06,$27.00,arnold
+367,2/13/2025,Wine - Two Oceans Cabernet,199,$159.57,$21.73,Sona
+368,2/12/2025,Cheese - Perron Cheddar,162,$509.48,$41.53,Sona
+369,2/8/2025,Scampi Tail,46,$346.39,$3.08,Sona
+370,2/13/2025,Milk - Condensed,142,$554.73,$12.97,Sona
+371,2/13/2025,Pear - Packum,73,$126.25,$38.50,bet
+372,2/12/2025,"Vermacelli - Sprinkles, Assorted",112,$489.27,$10.09,arnold
+373,2/7/2025,"Cheese - Boursin, Garlic / Herbs",19,$352.63,$4.08,bet
+374,2/19/2025,"Pork - Chop, Frenched",83,$207.47,$30.57,Sona
+375,2/10/2025,V8 Splash Strawberry Banana,66,$163.16,$42.57,Sona
+376,2/22/2025,Cherries - Frozen,65,$466.88,$42.28,bet
+377,2/25/2025,Wine - Jafflin Bourgongone,125,$126.67,$32.51,bet
+378,2/9/2025,Cheese - Cheddar With Claret,120,$114.79,$21.15,bet
+379,2/4/2025,Crackers - Trio,139,$468.89,$11.78,bet
+380,2/21/2025,Chives - Fresh,125,$174.97,$46.27,Sona
+381,2/14/2025,Pasta - Canelloni,143,$101.39,$21.28,arnold
+382,2/12/2025,Wine - Sicilia Igt Nero Avola,90,$509.43,$44.85,arnold
+383,2/5/2025,Table Cloth 62x114 White,26,$79.65,$23.11,arnold
+384,2/12/2025,Salami - Genova,49,$332.13,$11.54,bet
+385,2/12/2025,"Soup - Campbells, Spinach Crm",168,$416.72,$16.84,arnold
+386,2/13/2025,Bananas,10,$382.96,$43.91,Sona
+387,2/11/2025,Beef - Kobe Striploin,180,$164.60,$15.71,bet
+388,2/11/2025,Goulash Seasoning,22,$192.73,$21.13,Sona
+389,2/23/2025,Truffle Shells - White Chocolate,104,$226.35,$16.47,bet
+390,2/9/2025,Cake - Cake Sheet Macaroon,76,$450.05,$8.98,Sona
+391,2/10/2025,Capers - Pickled,72,$262.60,$32.63,Sona
+392,2/10/2025,Eel Fresh,63,$463.31,$34.39,arnold
+393,2/20/2025,Wine - Duboeuf Beaujolais,196,$537.00,$32.77,arnold
+394,2/27/2025,Mushroom - Morel Frozen,24,$398.36,$7.87,bet
+395,2/19/2025,Lettuce - Romaine,155,$561.13,$40.98,arnold
+396,2/27/2025,True - Vue Containers,131,$221.82,$9.05,Sona
+397,2/14/2025,Filling - Mince Meat,101,$137.96,$34.92,bet
+398,2/9/2025,Pork - Sausage Casing,163,$346.52,$34.84,arnold
+399,2/24/2025,Water - Tonic,151,$362.66,$10.18,bet
+400,2/10/2025,Okra,110,$166.08,$35.51,Sona
+401,2/11/2025,Chicken - Whole Roasting,16,$572.96,$32.91,Sona
+402,2/21/2025,Mayonnaise,186,$172.31,$44.72,Sona
+403,2/10/2025,Orange - Blood,57,$96.95,$0.68,bet
+404,2/15/2025,True - Vue Containers,128,$306.70,$11.91,bet
+405,2/17/2025,Hand Towel,134,$322.97,$18.33,bet
+406,2/9/2025,Lamb - Rack,148,$335.91,$35.92,arnold
+407,2/18/2025,Radish,80,$404.99,$31.31,bet
+408,2/24/2025,Sauce - Salsa,136,$107.95,$33.20,arnold
+409,2/6/2025,"Pepper - White, Whole",68,$463.25,$11.59,bet
+410,2/24/2025,Flour Pastry Super Fine,186,$217.41,$10.08,Sona
+411,2/23/2025,Cheese - Grie Des Champ,136,$388.89,$19.44,arnold
+412,2/18/2025,Wine - Lamancha Do Crianza,146,$544.02,$15.48,bet
+413,2/5/2025,Hot Chocolate - Individual,88,$296.04,$30.78,Sona
+414,2/5/2025,Wine - Cava Aria Estate Brut,174,$379.62,$14.91,Sona
+415,2/27/2025,Bread - Crusty Italian Poly,194,$524.24,$24.99,bet
+416,2/15/2025,"Asparagus - Green, Fresh",36,$97.89,$20.48,arnold
+417,2/11/2025,Silicone Parch. 16.3x24.3,109,$397.70,$13.58,bet
+418,2/5/2025,Wine - Gewurztraminer Pierre,174,$425.81,$9.53,Sona
+419,2/8/2025,Pie Shell - 9,14,$328.64,$18.67,bet
+420,2/27/2025,"Wine - Red, Lurton Merlot De",4,$487.81,$36.15,Sona
+421,2/19/2025,"Mushroom - Morels, Dry",177,$477.77,$43.07,Sona
+422,2/5/2025,Nantucket Apple Juice,147,$138.87,$29.60,arnold
+423,2/16/2025,Potatoes - Mini Red,57,$335.32,$11.66,arnold
+424,2/24/2025,"Coke - Diet, 355 Ml",92,$268.48,$0.81,arnold
+425,2/10/2025,Rabbit - Saddles,19,$376.53,$24.67,arnold
+426,2/19/2025,Wine - Vidal Icewine Magnotta,93,$439.49,$16.37,Sona
+427,2/23/2025,Asparagus - Frozen,11,$505.69,$0.81,bet
+428,2/22/2025,Spice - Paprika,78,$321.51,$39.11,arnold
+429,2/16/2025,Wine - Chablis 2003 Champs,193,$552.37,$27.55,arnold
+430,2/8/2025,"Wine - Red, Pelee Island Merlot",103,$443.01,$6.48,Sona
+431,2/15/2025,"Sugar - Brown, Individual",75,$236.92,$18.49,Sona
+432,2/25/2025,Sugar - White Packet,155,$400.99,$12.03,arnold
+433,2/24/2025,Pie Pecan,59,$181.25,$15.26,bet
+434,2/7/2025,Blueberries - Frozen,87,$139.34,$32.68,bet
+435,2/22/2025,"Cheese - Cheddar, Old White",162,$443.46,$24.79,Sona
+436,2/25/2025,Ice Cream - Vanilla,92,$417.99,$12.98,arnold
+437,2/8/2025,Veal - Slab Bacon,128,$261.23,$34.68,bet
+438,2/5/2025,Mint - Fresh,75,$158.95,$27.22,Sona
+439,2/19/2025,Tomatoes - Cherry,166,$596.41,$23.14,arnold
+440,2/13/2025,Langers - Ruby Red Grapfruit,109,$166.83,$40.96,bet
+441,2/15/2025,Pastry - Choclate Baked,62,$348.77,$7.20,arnold
+442,2/4/2025,Petit Baguette,163,$342.49,$35.88,arnold
+443,2/7/2025,Lamb Shoulder Boneless Nz,46,$313.37,$16.35,bet
+444,2/23/2025,Pepper - Roasted Red,40,$483.56,$23.57,Sona
+445,2/16/2025,Wine - Cave Springs Dry Riesling,3,$51.04,$22.96,arnold
+446,2/7/2025,Milkettes - 2%,51,$479.99,$9.35,bet
+447,2/23/2025,Brandy Cherry - Mcguinness,40,$525.74,$36.82,arnold
+448,2/21/2025,Food Colouring - Orange,97,$427.79,$43.77,Sona
+449,2/15/2025,Veal - Bones,40,$487.23,$5.99,arnold
+450,2/23/2025,Bay Leaf Fresh,46,$410.05,$42.09,Sona
+451,2/22/2025,Sausage - Breakfast,91,$329.82,$37.18,arnold
+452,2/7/2025,"Mustard - Dry, Powder",172,$523.18,$19.44,arnold
+453,2/23/2025,Wine - Chianti Classica Docg,1,$561.12,$29.08,arnold
+454,2/7/2025,Tuna - Salad Premix,134,$417.09,$20.47,Sona
+455,2/8/2025,"Artichokes - Knobless, White",11,$51.77,$0.88,Sona
+456,2/14/2025,"Radish - Black, Winter, Organic",92,$596.64,$8.83,arnold
+457,2/18/2025,Savory,14,$531.72,$43.88,bet
+458,2/8/2025,Cut Wakame - Hanawakaba,93,$328.41,$7.32,Sona
+459,2/9/2025,Wine - Wyndham Estate Bin 777,28,$374.71,$2.31,arnold
+460,2/16/2025,Cranberries - Frozen,122,$469.71,$13.86,arnold
+461,2/26/2025,Truffle Cups - Brown,85,$333.73,$13.13,Sona
+462,2/16/2025,Buttons,193,$346.92,$23.39,bet
+463,2/16/2025,Broom Handle,135,$169.41,$28.98,arnold
+464,2/5/2025,Steel Wool S.o.s,79,$243.16,$46.06,arnold
+465,2/16/2025,Steam Pan Full Lid,145,$141.50,$22.77,Sona
+466,2/5/2025,Beer - Sleemans Cream Ale,60,$293.75,$6.68,Sona
+467,2/11/2025,Juice - Orangina,172,$496.37,$19.00,bet
+468,2/25/2025,Wine - Red Oakridge Merlot,75,$504.54,$14.88,arnold
+469,2/12/2025,"Olives - Black, Pitted",138,$120.10,$28.56,Sona
+470,2/24/2025,Swiss Chard,95,$419.78,$29.16,bet
+471,2/9/2025,"Crush - Grape, 355 Ml",120,$128.16,$13.08,bet
+472,2/7/2025,Wine - German Riesling,138,$249.88,$36.68,arnold
+473,2/9/2025,Bread Roll Foccacia,3,$436.51,$40.21,Sona
+474,2/16/2025,Compound - Pear,18,$467.36,$21.90,bet
+475,2/11/2025,Honey - Liquid,13,$427.75,$29.29,Sona
+476,2/13/2025,Veal Inside - Provimi,18,$82.28,$42.28,Sona
+477,2/17/2025,Lidsoupcont Rp12dn,171,$378.63,$20.09,bet
+478,2/20/2025,"Yogurt - Peach, 175 Gr",129,$510.29,$9.46,Sona
+479,2/11/2025,Rabbit - Saddles,200,$531.92,$30.27,bet
+480,2/19/2025,Instant Coffee,21,$363.87,$32.17,Sona
+481,2/9/2025,Kiwi,190,$549.57,$36.34,bet
+482,2/9/2025,Cheese - Blue,38,$433.37,$17.73,bet
+483,2/11/2025,Bar - Granola Trail Mix Fruit Nut,2,$541.15,$22.75,Sona
+484,2/23/2025,Tea - Grapefruit Green Tea,105,$253.69,$0.02,arnold
+485,2/19/2025,Horseradish - Prepared,160,$361.68,$0.38,arnold
+486,2/4/2025,Fish - Bones,170,$579.63,$25.81,arnold
+487,2/22/2025,"Wine - Red, Cabernet Sauvignon",48,$89.97,$16.05,arnold
+488,2/16/2025,"Pesto - Primerba, Paste",200,$552.24,$36.68,arnold
+489,2/10/2025,V8 - Tropical Blend,68,$80.01,$0.10,Sona
+490,2/22/2025,Tea - English Breakfast,86,$586.81,$47.24,Sona
+491,2/10/2025,Table Cloth 81x81 Colour,117,$457.42,$6.16,Sona
+492,2/11/2025,Ecolab - Medallion,192,$93.47,$48.20,bet
+493,2/27/2025,Chocolate - Feathers,91,$466.55,$12.66,bet
+494,2/25/2025,Sambuca Cream,80,$200.83,$45.08,bet
+495,2/18/2025,"Lobster - Baby, Boiled",169,$284.63,$48.48,arnold
+496,2/20/2025,Soupfoamcont12oz 112con,4,$138.78,$22.17,bet
+497,2/6/2025,Mousse - Passion Fruit,35,$276.24,$45.74,bet
+498,2/21/2025,Oil - Shortening - All - Purpose,28,$328.54,$27.03,arnold
+499,2/7/2025,Sprouts Dikon,169,$194.99,$18.56,bet
+500,2/20/2025,Wine - Magnotta - Cab Sauv,4,$476.50,$39.20,bet
+501,2/24/2025,"Pasta - Canelloni, Single Serve",114,$120.15,$17.60,Sona
+502,2/24/2025,Pear - Prickly,89,$137.84,$18.85,arnold
+503,2/10/2025,"Sugar - Sweet N Low, Individual",153,$105.71,$38.82,Sona
+504,2/5/2025,Muffin Mix - Chocolate Chip,157,$324.83,$42.91,Sona
+505,2/23/2025,Veal - Sweetbread,142,$309.62,$12.73,Sona
+506,2/23/2025,Salmon - Canned,47,$82.90,$41.40,Sona
+507,2/21/2025,Bonito Flakes - Toku Katsuo,200,$335.71,$16.40,bet
+508,2/11/2025,Chocolate Bar - Coffee Crisp,113,$537.21,$28.01,Sona
+509,2/5/2025,Seedlings - Clamshell,80,$115.36,$33.63,Sona
+510,2/20/2025,"Sugar - Brown, Individual",62,$367.09,$22.25,Sona
+511,2/7/2025,Milk - 1%,50,$312.87,$1.90,Sona
+512,2/15/2025,Kumquat,43,$260.53,$19.70,arnold
+513,2/6/2025,Wine - Cabernet Sauvignon,81,$237.19,$41.30,bet
+514,2/12/2025,Cattail Hearts,68,$232.65,$14.53,Sona
+515,2/9/2025,"Wine - Mas Chicet Rose, Vintage",16,$178.84,$18.99,arnold
+516,2/15/2025,Chicken - Base,39,$548.03,$22.66,bet
+517,2/4/2025,Veal - Osso Bucco,18,$159.66,$3.09,arnold
+518,2/5/2025,Pork - Smoked Back Bacon,91,$153.06,$43.43,Sona
+519,2/18/2025,Melon - Cantaloupe,12,$374.89,$37.53,Sona
+520,2/27/2025,Table Cloth 62x114 White,69,$370.29,$14.80,Sona
+521,2/15/2025,"Pesto - Primerba, Paste",24,$412.93,$24.12,Sona
+522,2/4/2025,Wine - Zinfandel California 2002,167,$142.13,$3.42,Sona
+523,2/19/2025,"Wine - White, Riesling, Henry Of",82,$168.15,$8.65,bet
+524,2/15/2025,Cake - Pancake,186,$330.21,$9.92,bet
+525,2/25/2025,Cup - Translucent 7 Oz Clear,178,$361.18,$48.98,Sona
+526,2/12/2025,Beef - Tenderloin - Aa,197,$589.87,$12.47,bet
+527,2/5/2025,"Shrimp - Baby, Cold Water",151,$442.42,$34.99,arnold
+528,2/20/2025,Sprouts - Onion,57,$164.57,$17.00,arnold
+529,2/27/2025,French Pastries,108,$450.35,$35.85,Sona
+530,2/14/2025,Steamers White,137,$570.55,$16.80,Sona
+531,2/4/2025,"Halibut - Whole, Fresh",59,$397.33,$37.14,Sona
+532,2/5/2025,Beer - True North Lager,158,$177.72,$17.15,Sona
+533,2/20/2025,"Cheese - Cheddar, Mild",84,$196.17,$41.18,arnold
+534,2/17/2025,Sultanas,104,$437.04,$21.53,arnold
+535,2/23/2025,Pork - Side Ribs,49,$55.65,$22.00,Sona
+536,2/20/2025,"Pork - Loin, Boneless",142,$547.48,$35.41,Sona
+537,2/18/2025,Nantucket Apple Juice,89,$147.86,$26.23,Sona
+538,2/19/2025,Wine - Domaine Boyar Royal,187,$562.13,$16.39,Sona
+539,2/22/2025,Lettuce - Boston Bib,143,$494.71,$9.38,Sona
+540,2/24/2025,Flour Pastry Super Fine,196,$561.17,$14.76,arnold
+541,2/4/2025,Ginsing - Fresh,103,$137.03,$41.38,arnold
+542,2/23/2025,Beer - True North Lager,59,$204.08,$7.64,arnold
+543,2/25/2025,Flour - Chickpea,161,$248.46,$45.45,bet
+544,2/25/2025,"Quail - Whole, Bone - In",53,$463.73,$14.05,Sona
+545,2/12/2025,Beef Dry Aged Tenderloin Aaa,171,$520.31,$21.72,arnold
+546,2/21/2025,Wine - Sicilia Igt Nero Avola,77,$525.68,$19.89,bet
+547,2/5/2025,Sugar - Icing,155,$73.20,$18.23,bet
+548,2/4/2025,"Veal - Brisket, Provimi, Bone - In",163,$55.33,$40.59,Sona
+549,2/6/2025,Tomatoes Tear Drop,142,$218.60,$0.09,bet
+550,2/23/2025,Cherries - Fresh,113,$50.12,$30.72,bet
+551,2/26/2025,French Pastry - Mini Chocolate,153,$149.31,$2.72,Sona
+552,2/24/2025,Bar Nature Valley,6,$287.70,$27.88,arnold
+553,2/9/2025,Dill Weed - Fresh,144,$365.29,$3.01,Sona
+554,2/24/2025,"Lamb - Leg, Bone In",69,$138.01,$8.88,arnold
+555,2/9/2025,Snails - Large Canned,180,$564.21,$37.97,arnold
+556,2/16/2025,"Tortillas - Flour, 10",102,$87.28,$46.43,bet
+557,2/20/2025,Barley - Pearl,96,$443.53,$3.01,Sona
+558,2/19/2025,"Roe - Lump Fish, Black",67,$329.67,$26.54,arnold
+559,2/19/2025,Soup - Campbells Beef Strogonoff,97,$222.29,$47.09,Sona
+560,2/5/2025,Lettuce - Arugula,12,$376.20,$40.46,bet
+561,2/21/2025,Alize Sunset,26,$250.60,$20.62,Sona
+562,2/14/2025,Cake - Lemon Chiffon,1,$418.01,$13.87,Sona
+563,2/13/2025,"Crush - Orange, 355ml",151,$57.22,$26.50,bet
+564,2/17/2025,"Fish - Scallops, Cold Smoked",116,$79.53,$27.65,Sona
+565,2/6/2025,Tomatoes - Hot House,168,$564.59,$4.22,arnold
+566,2/26/2025,Pepper - Yellow Bell,16,$109.58,$43.03,arnold
+567,2/8/2025,Bay Leaf Ground,141,$425.76,$7.95,arnold
+568,2/21/2025,"Lamb - Loin, Trimmed, Boneless",10,$578.74,$14.34,bet
+569,2/21/2025,"Lemonade - Strawberry, 591 Ml",126,$338.95,$21.00,bet
+570,2/9/2025,Soup - Campbells Bean Medley,184,$137.78,$13.97,Sona
+571,2/18/2025,Lettuce - Red Leaf,145,$340.36,$6.62,bet
+572,2/4/2025,"Soup - Knorr, Veg / Beef",121,$303.30,$35.08,arnold
+573,2/12/2025,"Capon - Breast, Double, Wing On",151,$116.05,$16.93,Sona
+574,2/26/2025,Pepper - Red Thai,37,$572.51,$5.00,Sona
+575,2/14/2025,Beer - Heinekin,1,$514.04,$4.43,bet
+576,2/17/2025,General Purpose Trigger,44,$586.54,$5.79,bet
+577,2/7/2025,Tea - English Breakfast,119,$406.78,$19.97,bet
+578,2/15/2025,Bread - Italian Roll With Herbs,16,$553.03,$7.03,arnold
+579,2/21/2025,"Potatoes - Purple, Organic",168,$288.89,$37.65,arnold
+580,2/16/2025,Cookie Trail Mix,79,$342.09,$40.99,Sona
+581,2/15/2025,Pate - Peppercorn,105,$336.69,$5.28,Sona
+582,2/20/2025,Absolut Citron,181,$459.60,$35.58,bet
+583,2/21/2025,"Wine - Red, Cooking",107,$85.78,$42.51,arnold
+584,2/20/2025,Raisin - Dark,94,$208.76,$13.09,arnold
+585,2/5/2025,Squid - Breaded,188,$475.81,$8.01,arnold
+586,2/25/2025,"Nut - Almond, Blanched, Ground",182,$329.34,$44.59,arnold
+587,2/24/2025,Truffle - Peelings,167,$112.35,$43.51,arnold
+588,2/14/2025,Wiberg Cure,139,$69.15,$41.12,bet
+589,2/16/2025,Ice Cream - Super Sandwich,135,$512.94,$5.40,Sona
+590,2/13/2025,"Turkey - Breast, Smoked",37,$531.76,$42.97,arnold
+591,2/10/2025,Edible Flower - Mixed,165,$407.93,$16.18,arnold
+592,2/13/2025,Mustard - Dijon,67,$120.27,$30.10,Sona
+593,2/18/2025,Bread - Frozen Basket Variety,79,$307.58,$27.81,Sona
+594,2/15/2025,"Ecolab - Orange Frc, Cleaner",152,$95.81,$37.00,arnold
+595,2/5/2025,Mustard - Dijon,165,$171.27,$2.65,arnold
+596,2/22/2025,Wiberg Cure,138,$362.37,$2.98,Sona
+597,2/24/2025,"Fish - Halibut, Cold Smoked",154,$370.85,$12.01,bet
+598,2/5/2025,Nantuket Peach Orange,97,$503.68,$9.42,Sona
+599,2/17/2025,Onions - Green,180,$537.98,$0.49,arnold
+600,2/9/2025,Sobe - Lizard Fuel,142,$396.93,$38.09,arnold
+601,2/9/2025,Sage - Fresh,123,$189.31,$34.50,arnold
+602,2/19/2025,Bread - Triangle White,13,$135.74,$33.65,arnold
+603,2/10/2025,Pork Loin Cutlets,55,$128.58,$36.09,bet
+604,2/9/2025,"Sauce - Apple, Unsweetened",173,$256.39,$31.84,bet
+605,2/6/2025,"Stock - Beef, White",64,$299.87,$27.18,bet
+606,2/23/2025,"Cheese - Romano, Grated",8,$419.78,$2.37,bet
+607,2/20/2025,Beef - Flank Steak,130,$314.26,$15.04,bet
+608,2/4/2025,"Squash - Pattypan, Yellow",7,$565.79,$9.97,Sona
+609,2/20/2025,Buffalo - Tenderloin,174,$101.46,$34.44,Sona
+610,2/13/2025,Table Cloth 72x144 White,185,$291.20,$9.19,arnold
+611,2/15/2025,Wine - Ice Wine,54,$329.30,$22.55,Sona
+612,2/15/2025,Bread - Olive Dinner Roll,121,$151.40,$40.80,arnold
+613,2/20/2025,Soup - Campbells,71,$586.00,$4.17,bet
+614,2/12/2025,Cheese - Grana Padano,174,$110.76,$43.09,Sona
+615,2/21/2025,Cocoa Butter,13,$572.43,$25.22,bet
+616,2/6/2025,Longos - Greek Salad,74,$300.55,$24.96,bet
+617,2/22/2025,Potatoes - Peeled,72,$339.47,$7.47,bet
+618,2/20/2025,Chivas Regal - 12 Year Old,139,$387.53,$21.98,arnold
+619,2/10/2025,"Nut - Walnut, Pieces",30,$418.51,$2.91,bet
+620,2/13/2025,Oranges,137,$328.74,$17.19,bet
+621,2/13/2025,Chicken Breast Wing On,25,$347.00,$10.14,Sona
+622,2/20/2025,Sausage - Blood Pudding,1,$377.71,$4.19,Sona
+623,2/14/2025,Wine - Fume Blanc Fetzer,94,$545.67,$24.66,arnold
+624,2/11/2025,Wine - Gewurztraminer Pierre,20,$256.94,$8.23,arnold
+625,2/19/2025,Marjoram - Fresh,62,$484.30,$21.00,arnold
+626,2/23/2025,Pur Value,96,$184.52,$30.30,bet
+627,2/13/2025,Wine - Acient Coast Caberne,44,$315.65,$48.83,Sona
+628,2/15/2025,Shortbread - Cookie Crumbs,157,$484.65,$12.27,arnold
+629,2/15/2025,Sugar - Icing,26,$402.68,$28.12,bet
+630,2/4/2025,Nantuket Peach Orange,129,$595.83,$3.21,arnold
+631,2/9/2025,Miso Paste White,3,$556.18,$46.44,arnold
+632,2/10/2025,"Sugar - Brown, Individual",182,$417.21,$1.76,arnold
+633,2/7/2025,Coriander - Seed,160,$158.84,$27.42,arnold
+634,2/18/2025,"Jam - Strawberry, 20 Ml Jar",159,$477.10,$20.99,Sona
+635,2/22/2025,Pepper - Yellow Bell,32,$93.22,$3.70,bet
+636,2/9/2025,Soho Lychee Liqueur,158,$255.13,$37.88,arnold
+637,2/11/2025,"Zucchini - Mini, Green",113,$178.26,$6.61,Sona
+638,2/14/2025,"Lamb - Loin, Trimmed, Boneless",82,$485.94,$23.79,arnold
+639,2/13/2025,"Beef - Tenderlion, Center Cut",5,$576.08,$30.87,bet
+640,2/12/2025,Bagel - Everything,117,$337.27,$17.54,Sona
+641,2/26/2025,Muffin Orange Individual,144,$233.94,$27.58,bet
+642,2/20/2025,Rambutan,63,$397.59,$22.06,Sona
+643,2/27/2025,Table Cloth 91x91 Colour,105,$131.93,$41.68,bet
+644,2/13/2025,Grapefruit - Pink,143,$565.32,$7.38,Sona
+645,2/10/2025,"Extract - Vanilla,artificial",21,$174.85,$31.32,Sona
+646,2/19/2025,"Veal - Insides, Grains",54,$539.03,$41.57,arnold
+647,2/6/2025,Cheese - La Sauvagine,30,$180.62,$31.23,bet
+648,2/20/2025,Celery Root,37,$569.90,$25.31,Sona
+649,2/26/2025,Aspic - Amber,94,$114.42,$26.57,bet
+650,2/24/2025,Apricots - Halves,163,$245.12,$11.32,Sona
+651,2/12/2025,Sausage - Breakfast,147,$252.68,$29.31,arnold
+652,2/24/2025,"Pork - Loin, Center Cut",158,$405.12,$10.94,Sona
+653,2/14/2025,Brandy Apricot,11,$87.74,$27.34,arnold
+654,2/11/2025,Chocolate - Mi - Amere Semi,9,$508.75,$19.70,arnold
+655,2/25/2025,Pork - Bacon Cooked Slcd,185,$109.28,$14.02,Sona
+656,2/26/2025,Veal - Eye Of Round,61,$168.41,$15.53,Sona
+657,2/9/2025,Pork - Back Ribs,56,$372.39,$13.69,Sona
+658,2/12/2025,Chutney Sauce - Mango,115,$142.77,$43.75,bet
+659,2/12/2025,Compound - Raspberry,85,$235.21,$23.98,Sona
+660,2/19/2025,Cod - Black Whole Fillet,198,$416.58,$43.27,Sona
+661,2/25/2025,Island Oasis - Raspberry,46,$79.44,$4.70,Sona
+662,2/12/2025,Soup - Campbells Asian Noodle,69,$422.66,$43.46,arnold
+663,2/22/2025,Ham - Black Forest,122,$142.35,$26.54,arnold
+664,2/15/2025,Chips - Miss Vickies,20,$517.40,$4.24,arnold
+665,2/13/2025,Cheese - Shred Cheddar / Mozza,181,$82.42,$40.97,arnold
+666,2/26/2025,Pasta - Ravioli,71,$366.89,$34.24,bet
+667,2/8/2025,Tahini Paste,61,$131.76,$4.99,Sona
+668,2/24/2025,Fireball Whisky,188,$110.68,$40.58,Sona
+669,2/9/2025,Nantucket - Kiwi Berry Cktl.,38,$419.93,$36.94,Sona
+670,2/23/2025,"Cod - Salted, Boneless",82,$152.11,$7.15,bet
+671,2/13/2025,Table Cloth 91x91 Colour,179,$255.11,$44.00,arnold
+672,2/19/2025,Pear - Prickly,94,$375.05,$9.78,arnold
+673,2/12/2025,Dasheen,32,$207.96,$4.95,arnold
+674,2/24/2025,"Fish - Base, Bouillion",13,$542.66,$19.82,Sona
+675,2/12/2025,Flour - Fast / Rapid,147,$52.18,$19.79,arnold
+676,2/25/2025,Cheese - Roquefort Pappillon,81,$144.95,$29.87,bet
+677,2/15/2025,Sprouts - Onion,65,$291.20,$22.58,Sona
+678,2/5/2025,"Beans - Black Bean, Canned",131,$433.78,$2.27,bet
+679,2/16/2025,Tea - Decaf 1 Cup,141,$151.37,$15.39,arnold
+680,2/5/2025,Tomato Paste,186,$101.86,$12.57,Sona
+681,2/12/2025,Bandage - Fexible 1x3,155,$87.99,$14.04,bet
+682,2/23/2025,Buttons,133,$442.62,$45.58,Sona
+683,2/7/2025,Pepper - Jalapeno,31,$291.83,$13.86,Sona
+684,2/5/2025,Nantucket - Kiwi Berry Cktl.,194,$485.98,$4.04,Sona
+685,2/27/2025,"Bread - Dark Rye, Loaf",97,$199.66,$46.68,arnold
+686,2/17/2025,"Iced Tea - Lemon, 340ml",178,$265.89,$37.99,Sona
+687,2/4/2025,Beans - Fava Fresh,196,$201.54,$19.68,Sona
+688,2/20/2025,Paper Towel Touchless,49,$195.30,$42.11,bet
+689,2/8/2025,Wine - Rosso Toscano Igt,58,$356.79,$25.31,arnold
+690,2/7/2025,Oneshot Automatic Soap System,60,$535.00,$26.57,bet
+691,2/4/2025,Pastry - Butterscotch Baked,10,$250.11,$15.94,bet
+692,2/11/2025,Arctic Char - Fillets,138,$473.19,$4.97,Sona
+693,2/23/2025,Cranberry Foccacia,175,$264.80,$21.10,Sona
+694,2/21/2025,Smoked Paprika,169,$449.53,$7.00,arnold
+695,2/22/2025,Orange - Tangerine,135,$225.53,$32.20,Sona
+696,2/8/2025,Compound - Passion Fruit,168,$57.92,$34.99,Sona
+697,2/5/2025,Coffee - Flavoured,129,$162.15,$33.13,Sona
+698,2/18/2025,Mushroom - Chanterelle Frozen,41,$161.90,$20.32,arnold
+699,2/10/2025,Cookies - Fortune,84,$567.73,$21.48,bet
+700,2/7/2025,Assorted Desserts,108,$321.22,$39.28,arnold
+701,2/12/2025,Compound - Mocha,156,$199.17,$26.70,Sona
+702,2/23/2025,Carbonated Water - Blackberry,175,$243.84,$9.92,arnold
+703,2/26/2025,Pheasants - Whole,191,$314.06,$2.31,arnold
+704,2/9/2025,Lid - 0090 Clear,94,$102.41,$41.78,bet
+705,2/14/2025,Beef - Shank,30,$545.97,$35.89,bet
+706,2/22/2025,Beef - Texas Style Burger,82,$360.87,$3.73,arnold
+707,2/8/2025,Bread Ww Cluster,144,$119.38,$42.54,Sona
+708,2/5/2025,Lobster - Tail 6 Oz,65,$179.65,$6.60,arnold
+709,2/9/2025,Chocolate - Milk,91,$199.24,$37.58,Sona
+710,2/23/2025,Apples - Spartan,190,$410.69,$25.24,bet
+711,2/20/2025,Pie Pecan,82,$575.60,$36.78,bet
+712,2/18/2025,Coconut Milk - Unsweetened,106,$374.97,$33.72,Sona
+713,2/16/2025,Rice - Long Grain,145,$380.05,$13.40,bet
+714,2/10/2025,"Juice - Clam, 46 Oz",86,$486.20,$32.44,bet
+715,2/13/2025,Hagen Daza - Dk Choocolate,13,$100.34,$6.26,Sona
+716,2/27/2025,Lettuce - Romaine,162,$247.16,$38.07,Sona
+717,2/24/2025,Hinge W Undercut,100,$200.95,$17.54,Sona
+718,2/21/2025,Wine - Malbec Trapiche Reserve,136,$301.49,$3.55,Sona
+719,2/9/2025,Ginger - Ground,29,$107.05,$9.48,bet
+720,2/24/2025,Isomalt,98,$357.30,$38.92,Sona
+721,2/10/2025,Tarragon - Fresh,41,$469.87,$39.84,bet
+722,2/25/2025,Beans - Yellow,28,$432.84,$37.75,Sona
+723,2/12/2025,"Chicken - Wings, Tip Off",67,$64.16,$20.87,Sona
+724,2/5/2025,Bar Mix - Lime,199,$204.88,$35.36,arnold
+725,2/13/2025,Mints - Striped Red,176,$530.93,$28.21,Sona
+726,2/24/2025,"Pepsi, 355 Ml",40,$448.07,$6.46,arnold
+727,2/8/2025,"Cake Circle, Paprus",42,$521.95,$16.76,arnold
+728,2/27/2025,Wine - Kwv Chenin Blanc South,180,$217.78,$9.11,bet
+729,2/26/2025,"Juice - Grapefruit, 341 Ml",100,$159.51,$30.51,bet
+730,2/16/2025,Spice - Greek 1 Step,185,$144.23,$33.45,Sona
+731,2/4/2025,"Jam - Raspberry,jar",42,$232.74,$25.39,Sona
+732,2/5/2025,Nori Sea Weed - Gold Label,147,$276.69,$26.83,Sona
+733,2/16/2025,Instant Coffee,66,$141.38,$7.46,Sona
+734,2/4/2025,Carbonated Water - Orange,89,$271.58,$2.40,arnold
+735,2/24/2025,Quail - Jumbo,30,$285.18,$12.60,Sona
+736,2/12/2025,Bread - Hot Dog Buns,183,$549.47,$39.62,bet
+737,2/7/2025,"Sauce - Apple, Unsweetened",31,$551.61,$13.92,arnold
+738,2/20/2025,Bread - Crusty Italian Poly,72,$370.54,$6.21,bet
+739,2/26/2025,"Water - Spring Water, 355 Ml",116,$210.70,$5.80,arnold
+740,2/20/2025,Onions - Cippolini,94,$460.16,$20.10,arnold
+741,2/14/2025,Tea - English Breakfast,149,$533.50,$44.01,Sona
+742,2/8/2025,Beans - Fava Fresh,54,$594.85,$2.80,arnold
+743,2/10/2025,Cakes Assorted,156,$82.99,$22.01,Sona
+744,2/6/2025,"Napkin - Beverge, White 2 - Ply",34,$581.41,$28.79,bet
+745,2/19/2025,Chicken - Base,72,$424.22,$16.09,Sona
+746,2/20/2025,Kohlrabi,149,$99.50,$20.42,Sona
+747,2/19/2025,Sour Puss Raspberry,160,$333.18,$40.94,arnold
+748,2/18/2025,Energy Drink - Franks Original,117,$284.46,$4.18,arnold
+749,2/14/2025,Wine - Casillero Del Diablo,161,$73.77,$16.56,arnold
+750,2/20/2025,"Wine - Red, Wolf Blass, Yellow",72,$53.36,$19.49,bet
+751,2/20/2025,Island Oasis - Magarita Mix,64,$384.52,$21.89,Sona
+752,2/26/2025,Pasta - Canelloni,193,$429.08,$39.02,bet
+753,2/7/2025,Oil - Sunflower,114,$273.72,$6.81,Sona
+754,2/19/2025,Chevril,53,$81.25,$36.53,Sona
+755,2/26/2025,Cup - Paper 10oz 92959,188,$390.91,$31.82,Sona
+756,2/7/2025,Blueberries,114,$420.20,$5.42,Sona
+757,2/22/2025,Sping Loaded Cup Dispenser,53,$398.09,$20.84,Sona
+758,2/19/2025,Wine - Pinot Noir Latour,47,$280.75,$6.30,arnold
+759,2/16/2025,Pate - Peppercorn,132,$295.00,$0.76,arnold
+760,2/27/2025,Pork - Hock And Feet Attached,29,$326.33,$34.55,arnold
+761,2/22/2025,Sauce Bbq Smokey,110,$95.61,$16.19,arnold
+762,2/27/2025,"Coffee - Beans, Whole",23,$284.63,$20.62,arnold
+763,2/13/2025,"Beans - Fava, Canned",171,$155.70,$38.09,arnold
+764,2/27/2025,"Napkin - Beverge, White 2 - Ply",79,$526.32,$29.79,Sona
+765,2/23/2025,Chips - Doritos,88,$545.49,$11.44,bet
+766,2/12/2025,Croissants Thaw And Serve,91,$528.58,$42.56,bet
+767,2/16/2025,Rolled Oats,133,$131.60,$35.26,arnold
+768,2/14/2025,Nantucket Apple Juice,181,$507.95,$36.95,arnold
+769,2/19/2025,Hot Choc Vending,37,$84.54,$5.50,Sona
+770,2/17/2025,Sobe - Cranberry Grapefruit,169,$50.91,$6.11,arnold
+771,2/19/2025,Pepper - Jalapeno,41,$289.22,$34.99,bet
+772,2/6/2025,Muffin Hinge 117n,50,$254.61,$14.47,Sona
+773,2/15/2025,Chocolate - Feathers,143,$435.47,$43.04,arnold
+774,2/19/2025,"Radish - Black, Winter, Organic",36,$356.79,$39.83,bet
+775,2/17/2025,The Pop Shoppe - Black Cherry,126,$558.15,$48.24,arnold
+776,2/14/2025,Bread - Rye,91,$302.79,$7.00,bet
+777,2/22/2025,Swordfish Loin Portions,188,$64.64,$42.10,arnold
+778,2/16/2025,Sorrel - Fresh,185,$315.06,$19.65,bet
+779,2/5/2025,Chutney Sauce - Mango,33,$519.85,$7.05,bet
+780,2/10/2025,"Napkin - Dinner, White",100,$534.01,$41.92,bet
+781,2/19/2025,Carbonated Water - Raspberry,148,$345.75,$18.08,bet
+782,2/23/2025,Nori Sea Weed,30,$265.55,$1.91,bet
+783,2/23/2025,Beef - Eye Of Round,116,$180.80,$9.34,arnold
+784,2/22/2025,Container - Hngd Cll Blk 7x7x3,186,$293.26,$26.57,arnold
+785,2/11/2025,"Mushroom - Morels, Dry",158,$479.31,$47.23,arnold
+786,2/21/2025,"Beef - Cooked, Corned",64,$61.36,$36.15,bet
+787,2/9/2025,Pepper - Orange,139,$390.04,$42.94,arnold
+788,2/18/2025,Parasol Pick Stir Stick,18,$58.21,$11.68,arnold
+789,2/16/2025,Milk - Homo,185,$111.70,$47.49,bet
+790,2/8/2025,Tomato - Tricolor Cherry,102,$405.65,$39.14,Sona
+791,2/24/2025,"Veal - Brisket, Provimi,bnls",18,$378.59,$12.18,arnold
+792,2/24/2025,Canadian Emmenthal,199,$180.98,$22.08,bet
+793,2/10/2025,Grapes - Green,147,$329.48,$25.60,bet
+794,2/26/2025,Sambuca - Opal Nera,174,$400.91,$35.95,bet
+795,2/5/2025,Anchovy Fillets,125,$301.29,$32.63,bet
+796,2/18/2025,"Sparkling Wine - Rose, Freixenet",108,$157.62,$48.03,Sona
+797,2/4/2025,Longos - Grilled Salmon With Bbq,18,$377.24,$5.78,bet
+798,2/17/2025,Soap - Hand Soap,93,$575.88,$19.15,Sona
+799,2/11/2025,"Soup - Cream Of Broccoli, Dry",177,$435.47,$10.52,Sona
+800,2/21/2025,Plaintain,118,$227.42,$46.02,bet
+801,2/22/2025,Island Oasis - Magarita Mix,117,$176.23,$11.96,bet
+802,2/10/2025,"Orange - Canned, Mandarin",104,$263.85,$30.05,Sona
+803,2/15/2025,Sauce - Plum,42,$78.05,$21.12,bet
+804,2/6/2025,Cake Slab,47,$135.44,$41.31,Sona
+805,2/15/2025,Pear - Asian,189,$405.36,$22.38,arnold
+806,2/9/2025,Pants Custom Dry Clean,167,$107.79,$40.66,Sona
+807,2/14/2025,Wine - Beringer Founders Estate,122,$414.80,$1.00,bet
+808,2/9/2025,"Lobster - Baby, Boiled",74,$408.44,$6.51,Sona
+809,2/21/2025,Green Tea Refresher,76,$352.24,$41.81,Sona
+810,2/18/2025,Quail - Jumbo,83,$586.16,$30.37,arnold
+811,2/4/2025,Pastry - Key Limepoppy Seed Tea,196,$562.61,$44.99,Sona
+812,2/26/2025,Rabbit - Frozen,119,$450.46,$25.80,arnold
+813,2/22/2025,Bread Country Roll,12,$214.95,$12.02,bet
+814,2/9/2025,Pear - Packum,113,$318.38,$0.11,Sona
+815,2/17/2025,"Garlic - Primerba, Paste",26,$311.28,$10.80,arnold
+816,2/27/2025,"Sugar - Sweet N Low, Individual",193,$201.81,$5.66,Sona
+817,2/7/2025,"Soup - French Onion, Dry",2,$331.10,$36.93,Sona
+818,2/14/2025,Fork - Plastic,192,$199.45,$6.55,bet
+819,2/20/2025,Everfresh Products,35,$166.95,$2.58,arnold
+820,2/6/2025,Shrimp - 150 - 250,63,$303.47,$22.87,Sona
+821,2/16/2025,Veal - Provimi Inside,76,$71.37,$1.69,bet
+822,2/15/2025,Longan,115,$450.12,$21.28,Sona
+823,2/18/2025,Juice - Prune,163,$272.12,$33.37,arnold
+824,2/25/2025,"Mushroom - Morels, Dry",199,$362.23,$2.33,arnold
+825,2/13/2025,Worcestershire Sauce,181,$529.57,$34.71,arnold
+826,2/14/2025,"Wine - White, Schroder And Schyl",155,$100.13,$18.47,arnold
+827,2/15/2025,Wine - Cava Aria Estate Brut,82,$78.51,$38.14,bet
+828,2/24/2025,Lettuce - Lolla Rosa,102,$332.81,$8.35,bet
+829,2/19/2025,Cheese - Brick With Pepper,17,$332.91,$6.19,Sona
+830,2/10/2025,"Soda Water - Club Soda, 355 Ml",169,$242.85,$3.68,Sona
+831,2/26/2025,"Bread - Rolls, Corn",180,$105.48,$33.67,arnold
+832,2/12/2025,Grapes - Black,190,$118.35,$29.11,bet
+833,2/27/2025,Anchovy In Oil,6,$353.07,$46.08,bet
+834,2/20/2025,"Tortillas - Flour, 10",79,$596.24,$37.80,Sona
+835,2/5/2025,Cleaner - Lime Away,28,$245.05,$27.80,Sona
+836,2/13/2025,Tea - Jasmin Green,81,$517.23,$11.36,arnold
+837,2/27/2025,"Pepper - Chillies, Crushed",177,$533.31,$6.19,arnold
+838,2/8/2025,Cocoa Butter,56,$163.25,$14.49,Sona
+839,2/10/2025,French Pastry - Mini Chocolate,151,$453.60,$41.51,bet
+840,2/10/2025,Pernod,172,$577.89,$24.17,bet
+841,2/20/2025,Uniform Linen Charge,24,$426.01,$26.67,arnold
+842,2/27/2025,Cheese - Goat With Herbs,172,$156.78,$6.14,bet
+843,2/14/2025,Mustard Prepared,1,$240.72,$26.02,arnold
+844,2/27/2025,Pork - Caul Fat,98,$158.76,$38.91,Sona
+845,2/20/2025,Puree - Blackcurrant,105,$463.08,$20.01,arnold
+846,2/27/2025,Poppy Seed,194,$242.93,$48.90,bet
+847,2/20/2025,Oil - Pumpkinseed,159,$585.67,$45.99,Sona
+848,2/25/2025,Praline Paste,194,$303.40,$34.96,bet
+849,2/6/2025,Wine - Wyndham Estate Bin 777,18,$430.23,$47.63,arnold
+850,2/6/2025,"Cheese - Woolwich Goat, Log",20,$434.96,$13.44,bet
+851,2/22/2025,Cookie - Oatmeal,27,$563.14,$41.89,bet
+852,2/23/2025,Bread - Italian Corn Meal Poly,43,$59.73,$14.82,arnold
+853,2/14/2025,Laundry - Bag Cloth,14,$381.82,$1.52,Sona
+854,2/18/2025,"Wine - Red, Pinot Noir, Chateau",81,$354.77,$39.24,bet
+855,2/23/2025,Mcguinness - Blue Curacao,35,$417.72,$38.64,bet
+856,2/24/2025,"Bread - Roll, Canadian Dinner",93,$176.26,$33.79,arnold
+857,2/14/2025,Shrimp - 150 - 250,81,$86.46,$0.50,arnold
+858,2/13/2025,Chinese Foods - Chicken,148,$295.12,$30.79,arnold
+859,2/17/2025,Island Oasis - Strawberry,156,$303.67,$7.41,arnold
+860,2/13/2025,Iced Tea Concentrate,109,$312.32,$30.61,arnold
+861,2/5/2025,Arizona - Plum Green Tea,58,$222.02,$36.34,Sona
+862,2/11/2025,"Chicken - Diced, Cooked",46,$264.53,$41.66,arnold
+863,2/9/2025,Juice - Lagoon Mango,9,$304.29,$13.45,arnold
+864,2/12/2025,Arizona - Plum Green Tea,109,$167.10,$26.33,bet
+865,2/25/2025,Numi - Assorted Teas,41,$234.55,$32.94,bet
+866,2/4/2025,Compound - Orange,50,$527.78,$3.24,arnold
+867,2/17/2025,Dried Figs,98,$147.95,$31.24,arnold
+868,2/16/2025,"Syrup - Golden, Lyles",48,$179.57,$28.73,bet
+869,2/6/2025,Lady Fingers,88,$178.78,$8.19,bet
+870,2/18/2025,"Vodka - Lemon, Absolut",105,$560.44,$35.61,arnold
+871,2/19/2025,Waffle Stix,43,$140.93,$23.88,bet
+872,2/11/2025,Nantucket Orange Juice,116,$200.58,$37.64,arnold
+873,2/27/2025,Madeira,102,$317.76,$27.00,arnold
+874,2/20/2025,Soup - Campbells - Chicken Noodle,181,$120.87,$11.14,arnold
+875,2/13/2025,Bagelers,101,$412.94,$10.89,arnold
+876,2/16/2025,Nantucket Orange Juice,85,$173.49,$8.88,bet
+877,2/23/2025,Syrup - Chocolate,166,$119.47,$18.03,Sona
+878,2/16/2025,Beer - Moosehead,43,$539.91,$42.32,bet
+879,2/18/2025,Muffin Chocolate Individual Wrap,170,$350.79,$32.73,bet
+880,2/20/2025,Jameson Irish Whiskey,97,$292.69,$31.11,bet
+881,2/11/2025,Ginger - Pickled,33,$74.56,$33.73,arnold
+882,2/13/2025,Shiro Miso,123,$458.20,$45.22,arnold
+883,2/12/2025,Whmis - Spray Bottle Trigger,133,$88.82,$12.27,Sona
+884,2/19/2025,Tea - Decaf 1 Cup,72,$474.11,$32.16,bet
+885,2/24/2025,Scotch - Queen Anne,187,$393.35,$35.35,bet
+886,2/11/2025,Danishes - Mini Raspberry,94,$394.38,$20.97,Sona
+887,2/24/2025,Pepper - Scotch Bonnet,50,$359.79,$3.11,Sona
+888,2/17/2025,Peppercorns - Green,11,$346.97,$12.78,arnold
+889,2/6/2025,"Lettuce - Mini Greens, Whole",172,$325.35,$46.60,bet
+890,2/15/2025,Aspic - Amber,148,$227.11,$32.83,Sona
+891,2/11/2025,Mikes Hard Lemonade,95,$526.25,$11.80,arnold
+892,2/27/2025,Wine - Cabernet Sauvignon,11,$327.09,$18.03,Sona
+893,2/12/2025,"Pasta - Fusili, Dry",125,$292.72,$0.89,Sona
+894,2/13/2025,Grapes - Black,156,$257.26,$17.08,bet
+895,2/8/2025,Petit Baguette,119,$533.08,$37.53,bet
+896,2/8/2025,Ezy Change Mophandle,79,$525.17,$25.12,Sona
+897,2/26/2025,Goulash Seasoning,27,$478.64,$6.14,bet
+898,2/19/2025,Beans - Fine,185,$346.39,$11.88,bet
+899,2/14/2025,Smoked Paprika,165,$266.70,$33.15,bet
+900,2/27/2025,Garlic - Elephant,100,$292.90,$31.66,arnold
+901,2/14/2025,Cognac - Courvaisier,116,$263.81,$12.67,arnold
+902,2/16/2025,Muffin Mix - Lemon Cranberry,42,$317.84,$35.94,Sona
+903,2/22/2025,Cassis,148,$493.49,$7.17,Sona
+904,2/10/2025,Steamers White,173,$487.67,$17.12,arnold
+905,2/14/2025,Grapefruit - White,54,$365.18,$24.54,Sona
+906,2/7/2025,Bread - Triangle White,47,$533.07,$17.90,bet
+907,2/19/2025,Compound - Raspberry,35,$297.74,$34.58,bet
+908,2/11/2025,Steam Pan - Half Size Deep,32,$555.02,$41.34,Sona
+909,2/18/2025,Roe - White Fish,56,$279.50,$13.90,bet
+910,2/8/2025,Soup - Campbells Chili,130,$105.48,$30.41,Sona
+911,2/14/2025,Wine - Chablis 2003 Champs,7,$232.39,$16.56,arnold
+912,2/13/2025,Tea - Herbal Orange Spice,178,$421.68,$7.52,bet
+913,2/15/2025,"Mushroom - Chanterelle, Dry",179,$195.88,$48.95,bet
+914,2/5/2025,Chocolate Eclairs,97,$128.10,$7.51,Sona
+915,2/25/2025,Turnip - Mini,131,$137.89,$35.69,bet
+916,2/4/2025,Raspberries - Frozen,195,$542.97,$45.67,arnold
+917,2/23/2025,Sauce - Vodka Blush,98,$255.91,$27.47,bet
+918,2/21/2025,Beans - Butter Lrg Lima,13,$567.14,$7.33,Sona
+919,2/24/2025,"Beans - Black Bean, Dry",137,$160.48,$38.79,bet
+920,2/14/2025,V8 Pet,21,$195.00,$17.25,arnold
+921,2/21/2025,Chip - Potato Dill Pickle,26,$66.82,$17.09,Sona
+922,2/25/2025,Cardamon Seed / Pod,83,$58.79,$35.14,arnold
+923,2/19/2025,Longos - Assorted Sandwich,42,$271.60,$24.21,Sona
+924,2/25/2025,Muffin Mix - Morning Glory,59,$402.14,$18.20,Sona
+925,2/19/2025,Bread - French Baquette,24,$162.33,$22.97,Sona
+926,2/25/2025,Red Currant Jelly,186,$467.24,$11.19,Sona
+927,2/14/2025,"Beef - Ground, Extra Lean, Fresh",191,$56.56,$9.56,Sona
+928,2/20/2025,Carbonated Water - Lemon Lime,147,$502.39,$21.17,arnold
+929,2/19/2025,Pepper - Cayenne,146,$317.01,$35.17,arnold
+930,2/26/2025,"Beef - Ground, Extra Lean, Fresh",13,$348.54,$11.10,arnold
+931,2/12/2025,Oil - Olive,77,$528.18,$3.98,bet
+932,2/20/2025,Carbonated Water - Blackcherry,102,$438.67,$40.99,Sona
+933,2/21/2025,Alize Red Passion,154,$336.04,$44.66,Sona
+934,2/22/2025,Wine - Blue Nun Qualitatswein,41,$135.42,$23.00,Sona
+935,2/19/2025,Cheese - Victor Et Berthold,152,$66.86,$8.17,arnold
+936,2/27/2025,"Artichoke - Hearts, Canned",200,$98.15,$20.93,arnold
+937,2/13/2025,Radish - Pickled,155,$226.32,$10.52,Sona
+938,2/22/2025,Ecolab - Hand Soap Form Antibac,148,$313.01,$17.14,Sona
+939,2/24/2025,Wooden Mop Handle,68,$303.73,$48.61,arnold
+940,2/23/2025,Oil - Peanut,76,$73.54,$6.79,bet
+941,2/10/2025,Dawn Professionl Pot And Pan,133,$347.58,$38.52,arnold
+942,2/18/2025,Flour - Bread,187,$250.73,$0.04,bet
+943,2/23/2025,Rice - Aborio,39,$584.52,$4.79,arnold
+944,2/26/2025,Strawberries - California,137,$357.26,$31.07,bet
+945,2/27/2025,Pepper Squash,160,$215.29,$39.25,arnold
+946,2/26/2025,Cheese - Ermite Bleu,173,$518.95,$23.07,arnold
+947,2/9/2025,Beer - Paulaner Hefeweisse,6,$294.13,$20.89,arnold
+948,2/13/2025,Sage Ground Wiberg,171,$297.03,$14.27,arnold
+949,2/15/2025,Butter - Pod,164,$50.67,$22.68,Sona
+950,2/24/2025,Compound - Passion Fruit,162,$80.02,$10.29,arnold
+951,2/14/2025,Stainless Steel Cleaner Vision,43,$537.83,$38.89,bet
+952,2/16/2025,Beer - Steamwhistle,82,$394.03,$21.53,Sona
+953,2/19/2025,Soup - Campbells Beef Noodle,81,$386.81,$3.69,bet
+954,2/4/2025,Soup - French Onion,106,$129.03,$35.99,bet
+955,2/5/2025,Oil - Shortening - All - Purpose,179,$566.67,$24.72,arnold
+956,2/4/2025,Aromat Spice / Seasoning,53,$513.89,$13.40,bet
+957,2/24/2025,Barley - Pearl,198,$142.25,$16.27,Sona
+958,2/10/2025,"Seedlings - Buckwheat, Organic",104,$427.10,$33.23,bet
+959,2/10/2025,Pepper - Red Bell,8,$316.45,$23.19,Sona
+960,2/20/2025,Steampan - Half Size Shallow,90,$226.67,$11.51,bet
+961,2/27/2025,Carbonated Water - Blackcherry,74,$189.07,$29.67,bet
+962,2/20/2025,"Vodka - Hot, Lnferno",160,$412.76,$4.24,arnold
+963,2/12/2025,Wine - Sogrape Mateus Rose,83,$250.09,$47.75,Sona
+964,2/21/2025,Onions - Green,124,$555.57,$37.98,bet
+965,2/5/2025,Fruit Salad Deluxe,26,$121.98,$15.59,Sona
+966,2/25/2025,Wine - Zinfandel California 2002,186,$87.55,$24.72,arnold
+967,2/14/2025,Juice - Orangina,67,$498.24,$27.83,Sona
+968,2/6/2025,Beef - Tenderloin Tails,47,$400.45,$1.77,Sona
+969,2/23/2025,Bar Nature Valley,90,$284.16,$38.47,bet
+970,2/18/2025,Cake - Pancake,199,$353.44,$37.87,arnold
+971,2/13/2025,Scotch - Queen Anne,126,$123.89,$0.71,Sona
+972,2/21/2025,Lambcasing,122,$193.25,$15.96,arnold
+973,2/10/2025,Wine - Saint Emilion Calvet,159,$423.96,$38.67,Sona
+974,2/16/2025,Arctic Char - Fillets,34,$583.96,$43.69,bet
+975,2/11/2025,Veal - Ground,33,$530.39,$11.84,bet
+976,2/10/2025,Samosa - Veg,140,$396.16,$4.90,bet
+977,2/23/2025,Rice Paper,124,$324.70,$6.23,arnold
+978,2/20/2025,"Lemonade - Kiwi, 591 Ml",82,$550.85,$30.32,Sona
+979,2/24/2025,Mustard Prepared,121,$246.07,$21.58,arnold
+980,2/9/2025,Eggplant - Regular,103,$336.09,$32.18,bet
+981,2/8/2025,Langers - Mango Nectar,137,$536.34,$23.63,arnold
+982,2/21/2025,Towel - Roll White,95,$397.84,$30.55,bet
+983,2/18/2025,Nantucket - Orange Mango Cktl,85,$561.41,$11.22,bet
+984,2/25/2025,Heavy Duty Dust Pan,163,$265.68,$38.42,arnold
+985,2/15/2025,Water - Evian 355 Ml,45,$294.45,$17.74,arnold
+986,2/23/2025,Emulsifier,114,$129.86,$46.88,bet
+987,2/15/2025,"Wine - White, Gewurtzraminer",181,$477.78,$29.05,arnold
+988,2/14/2025,Papadam,1,$462.25,$26.23,arnold
+989,2/22/2025,"Crab - Dungeness, Whole",195,$78.26,$37.59,arnold
+990,2/18/2025,Cup - Translucent 7 Oz Clear,126,$146.16,$25.45,arnold
+991,2/19/2025,"Ice - Clear, 300 Lb For Carving",62,$349.93,$46.04,Sona
+992,2/11/2025,Arctic Char - Fillets,121,$359.70,$7.90,Sona
+993,2/23/2025,Pear - Halves,132,$163.40,$3.52,bet
+994,2/19/2025,Remy Red Berry Infusion,22,$356.28,$1.01,Sona
+995,2/4/2025,Compound - Mocha,69,$168.96,$25.01,bet
+996,2/25/2025,"Jam - Strawberry, 20 Ml Jar",111,$114.17,$44.84,Sona
+997,2/13/2025,Cheese - Brick With Pepper,159,$283.19,$48.47,Sona
+998,2/5/2025,Bagel - Everything,110,$230.96,$34.06,Sona
+999,2/13/2025,Snapple Lemon Tea,122,$178.47,$48.37,Sona
+1000,2/26/2025,Dried Cranberries,162,$350.92,$46.94,Sona

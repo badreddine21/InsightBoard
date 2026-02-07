@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="professional-page">
+    <div class="page-heading">
+        <h1>Upload Data</h1>
+    </div>
     <div class="upload-container">
         
         {% if error %}
@@ -110,4 +114,5 @@
             uploadForm.submit();
         });
     </script>
+</div>
 {% endblock %}

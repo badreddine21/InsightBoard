@@ -2,7 +2,62 @@
 {% set page_title = 'Dashboard' %}
 
 {% block content %}
-<div class="grid">
+<div class="dashboard-page">
+    <div class="dashboard-header">
+        <h1>Analytics Dashboard</h1>
+    </div>
+    
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state">
+        <div class="empty-state-icon">📊</div>
+        <h2>No Data Available</h2>
+        <p>Upload a CSV file to view your analytics and insights</p>
+        <a href="/upload" class="upload-btn">Upload Data</a>
+    </div>
+    
+    <!-- Stats and Charts Container (hidden by default) -->
+    <div id="chartsContainer" style="display: none;">
+        <!-- KPI Stats Cards -->
+        <div class="stats-grid">
+            <div class="stat-card stat-card-purple">
+                <div class="stat-icon">💰</div>
+                <div class="stat-content">
+                    <div class="stat-label">TOTAL REVENUE</div>
+                    <div class="stat-value" id="totalRevenue">$0</div>
+                    <div class="stat-change positive" id="revenueChange">+0%</div>
+                </div>
+            </div>
+            
+            <div class="stat-card stat-card-green">
+                <div class="stat-icon">🛒</div>
+                <div class="stat-content">
+                    <div class="stat-label">TOTAL TRANSACTIONS</div>
+                    <div class="stat-value" id="totalTransactions">0</div>
+                    <div class="stat-change positive" id="transactionsChange">+0%</div>
+                </div>
+            </div>
+            
+            <div class="stat-card stat-card-orange">
+                <div class="stat-icon">📊</div>
+                <div class="stat-content">
+                    <div class="stat-label">AVG. TRANSACTION</div>
+                    <div class="stat-value" id="avgTransaction">$0</div>
+                    <div class="stat-change positive" id="avgChange">+0%</div>
+                </div>
+            </div>
+            
+            <div class="stat-card stat-card-red">
+                <div class="stat-icon">📈</div>
+                <div class="stat-content">
+                    <div class="stat-label">PEAK DAY</div>
+                    <div class="stat-value" id="peakDay">-</div>
+                    <div class="stat-subvalue" id="peakValue">$0</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Charts Section -->
+        <div class="grid">
         <div class="card full-width">
             <h3>Company Sales Trend</h3>
             <canvas id="salesChart"></canvas>
@@ -16,7 +71,6 @@
             <h3>Cashier Performance</h3><canvas id="cashierChart"></canvas>
         </div>
         {% endif %}
-
 
         {% if user.role == 'hr' %}
         <div class="card full-width hr-card">
@@ -36,7 +90,8 @@
             </table>
         </div>
         {% endif %}
-
+        </div>
+    </div>
 </div>
 
 <script src="/static/dashboard.js"></script>
